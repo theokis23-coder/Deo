@@ -1,0 +1,1968 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.20.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/deo-project/DEO-Nouveau/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install @react-native-community/cli
+8 verbose argv "install" "@react-native-community/cli" "--save-dev"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-11-24T20_07_21_645Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-11-24T20_07_21_645Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:969408512 maxSize:242352128 maxEntrySize:121176064
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @react-native-community/cli@*
+16 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli 1964ms (cache revalidated)
+18 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli set size:1023228 disposed:false
+19 silly placeDep ROOT @react-native-community/cli@20.0.2 OK for: deo-nouveau@1.0.0 want: *
+20 silly fetch manifest chalk@^4.1.2
+21 silly packumentCache full:https://registry.npmjs.org/chalk cache-miss
+22 silly fetch manifest execa@^5.0.0
+23 silly packumentCache full:https://registry.npmjs.org/execa cache-miss
+24 silly fetch manifest find-up@^5.0.0
+25 silly packumentCache full:https://registry.npmjs.org/find-up cache-miss
+26 silly fetch manifest fs-extra@^8.1.0
+27 silly packumentCache full:https://registry.npmjs.org/fs-extra cache-miss
+28 silly fetch manifest commander@^9.4.1
+29 silly packumentCache full:https://registry.npmjs.org/commander cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/chalk 255ms (cache revalidated)
+31 silly packumentCache full:https://registry.npmjs.org/chalk set size:117861 disposed:false
+32 silly fetch manifest @react-native-community/cli-clean@20.0.2
+33 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-clean cache-miss
+34 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-clean 1406ms (cache revalidated)
+35 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-clean set size:494656 disposed:false
+36 silly fetch manifest @react-native-community/cli-tools@20.0.2
+37 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-tools cache-miss
+38 http fetch GET 200 https://registry.npmjs.org/fs-extra 2671ms (cache revalidated)
+39 silly packumentCache full:https://registry.npmjs.org/fs-extra set size:227939 disposed:false
+40 silly fetch manifest @react-native-community/cli-types@20.0.2
+41 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-types cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/execa 2750ms (cache revalidated)
+43 silly packumentCache full:https://registry.npmjs.org/execa set size:177243 disposed:false
+44 silly fetch manifest @react-native-community/cli-config@20.0.2
+45 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-config cache-miss
+46 http fetch GET 200 https://registry.npmjs.org/find-up 2845ms (cache revalidated)
+47 silly packumentCache full:https://registry.npmjs.org/find-up set size:42620 disposed:false
+48 silly fetch manifest @react-native-community/cli-doctor@20.0.2
+49 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-doctor cache-miss
+50 http fetch GET 200 https://registry.npmjs.org/commander 2944ms (cache revalidated)
+51 silly packumentCache full:https://registry.npmjs.org/commander set size:345426 disposed:false
+52 silly fetch manifest @react-native-community/cli-server-api@20.0.2
+53 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-server-api cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-tools 1294ms (cache revalidated)
+55 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-tools set size:708549 disposed:false
+56 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-types 456ms (cache revalidated)
+57 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-types set size:512975 disposed:false
+58 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-config 496ms (cache revalidated)
+59 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-config set size:549124 disposed:false
+60 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-doctor 874ms (cache revalidated)
+61 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-doctor set size:676455 disposed:false
+62 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-server-api 964ms (cache revalidated)
+63 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-server-api set size:613056 disposed:false
+64 silly placeDep ROOT @react-native-community/cli-clean@20.0.2 OK for: @react-native-community/cli@20.0.2 want: 20.0.2
+65 silly placeDep ROOT @react-native-community/cli-config@20.0.2 OK for: @react-native-community/cli@20.0.2 want: 20.0.2
+66 silly placeDep ROOT @react-native-community/cli-doctor@20.0.2 OK for: @react-native-community/cli@20.0.2 want: 20.0.2
+67 silly placeDep ROOT @react-native-community/cli-server-api@20.0.2 OK for: @react-native-community/cli@20.0.2 want: 20.0.2
+68 silly placeDep ROOT @react-native-community/cli-tools@20.0.2 OK for: @react-native-community/cli@20.0.2 want: 20.0.2
+69 silly placeDep ROOT @react-native-community/cli-types@20.0.2 OK for: @react-native-community/cli@20.0.2 want: 20.0.2
+70 silly placeDep node_modules/@react-native-community/cli chalk@4.1.2 OK for: @react-native-community/cli@20.0.2 want: ^4.1.2
+71 silly placeDep node_modules/@react-native-community/cli commander@9.5.0 OK for: @react-native-community/cli@20.0.2 want: ^9.4.1
+72 silly placeDep ROOT execa@5.1.1 OK for: @react-native-community/cli@20.0.2 want: ^5.0.0
+73 silly placeDep node_modules/@react-native-community/cli find-up@5.0.0 OK for: @react-native-community/cli@20.0.2 want: ^5.0.0
+74 silly placeDep ROOT fs-extra@8.1.0 OK for: @react-native-community/cli@20.0.2 want: ^8.1.0
+75 silly fetch manifest fast-glob@^3.3.2
+76 silly packumentCache full:https://registry.npmjs.org/fast-glob cache-miss
+77 silly fetch manifest joi@^17.2.1
+78 silly packumentCache full:https://registry.npmjs.org/joi cache-miss
+79 silly fetch manifest fast-glob@^3.3.2
+80 silly packumentCache full:https://registry.npmjs.org/fast-glob cache-miss
+81 silly fetch manifest cosmiconfig@^9.0.0
+82 silly packumentCache full:https://registry.npmjs.org/cosmiconfig cache-miss
+83 silly fetch manifest ora@^5.4.1
+84 silly packumentCache full:https://registry.npmjs.org/ora cache-miss
+85 http fetch GET 200 https://registry.npmjs.org/fast-glob 500ms (cache miss)
+86 silly packumentCache full:https://registry.npmjs.org/fast-glob set size:undefined disposed:false
+87 silly fetch manifest envinfo@^7.13.0
+88 silly packumentCache full:https://registry.npmjs.org/envinfo cache-miss
+89 http fetch GET 200 https://registry.npmjs.org/fast-glob 547ms (cache miss)
+90 silly packumentCache full:https://registry.npmjs.org/fast-glob set size:undefined disposed:false
+91 silly fetch manifest command-exists@^1.2.8
+92 silly packumentCache full:https://registry.npmjs.org/command-exists cache-miss
+93 http fetch GET 200 https://registry.npmjs.org/ora 584ms (cache revalidated)
+94 silly packumentCache full:https://registry.npmjs.org/ora set size:134628 disposed:false
+95 silly fetch manifest node-stream-zip@^1.9.1
+96 silly packumentCache full:https://registry.npmjs.org/node-stream-zip cache-miss
+97 http fetch GET 200 https://registry.npmjs.org/cosmiconfig 1411ms (cache revalidated)
+98 silly packumentCache full:https://registry.npmjs.org/cosmiconfig set size:275399 disposed:false
+99 silly fetch manifest @react-native-community/cli-platform-ios@20.0.2
+100 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-platform-ios cache-miss
+101 http fetch GET 200 https://registry.npmjs.org/joi 1473ms (cache revalidated)
+102 silly packumentCache full:https://registry.npmjs.org/joi set size:507992 disposed:false
+103 silly fetch manifest @react-native-community/cli-platform-apple@20.0.2
+104 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-platform-apple cache-miss
+105 http fetch GET 200 https://registry.npmjs.org/envinfo 1030ms (cache revalidated)
+106 silly packumentCache full:https://registry.npmjs.org/envinfo set size:281603 disposed:false
+107 silly fetch manifest @react-native-community/cli-platform-android@20.0.2
+108 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-platform-android cache-miss
+109 http fetch GET 200 https://registry.npmjs.org/command-exists 1042ms (cache revalidated)
+110 silly packumentCache full:https://registry.npmjs.org/command-exists set size:31903 disposed:false
+111 silly fetch manifest ws@^6.2.3
+112 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+113 http fetch GET 200 https://registry.npmjs.org/node-stream-zip 1048ms (cache revalidated)
+114 silly packumentCache full:https://registry.npmjs.org/node-stream-zip set size:112616 disposed:false
+115 silly fetch manifest open@^6.2.0
+116 silly packumentCache full:https://registry.npmjs.org/open cache-miss
+117 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-platform-ios 498ms (cache revalidated)
+118 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-platform-ios set size:875589 disposed:false
+119 silly fetch manifest nocache@^3.0.1
+120 silly packumentCache full:https://registry.npmjs.org/nocache cache-miss
+121 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-platform-apple 629ms (cache miss)
+122 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-platform-apple set size:undefined disposed:false
+123 silly fetch manifest body-parser@^1.20.3
+124 silly packumentCache full:https://registry.npmjs.org/body-parser cache-miss
+125 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-platform-android 924ms (cache revalidated)
+126 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-platform-android set size:941435 disposed:false
+127 silly fetch manifest errorhandler@^1.5.1
+128 silly packumentCache full:https://registry.npmjs.org/errorhandler cache-miss
+129 http fetch GET 200 https://registry.npmjs.org/ws 933ms (cache revalidated)
+130 silly packumentCache full:https://registry.npmjs.org/ws set size:410885 disposed:false
+131 silly fetch manifest mime@^2.4.1
+132 silly packumentCache full:https://registry.npmjs.org/mime cache-miss
+133 http fetch GET 200 https://registry.npmjs.org/open 938ms (cache revalidated)
+134 silly packumentCache full:https://registry.npmjs.org/open set size:136392 disposed:false
+135 silly fetch manifest appdirsjs@^1.2.4
+136 silly packumentCache full:https://registry.npmjs.org/appdirsjs cache-miss
+137 http fetch GET 200 https://registry.npmjs.org/nocache 636ms (cache revalidated)
+138 silly packumentCache full:https://registry.npmjs.org/nocache set size:31710 disposed:false
+139 silly fetch manifest launch-editor@^2.9.1
+140 silly packumentCache full:https://registry.npmjs.org/launch-editor cache-miss
+141 http fetch GET 200 https://registry.npmjs.org/body-parser 644ms (cache updated)
+142 silly packumentCache full:https://registry.npmjs.org/body-parser set size:undefined disposed:false
+143 silly fetch manifest @vscode/sudo-prompt@^9.0.0
+144 silly packumentCache full:https://registry.npmjs.org/@vscode%2fsudo-prompt cache-miss
+145 http fetch GET 200 https://registry.npmjs.org/mime 382ms (cache revalidated)
+146 silly packumentCache full:https://registry.npmjs.org/mime set size:119236 disposed:false
+147 silly fetch manifest ansi-styles@^4.1.0
+148 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+149 http fetch GET 200 https://registry.npmjs.org/errorhandler 1029ms (cache revalidated)
+150 silly packumentCache full:https://registry.npmjs.org/errorhandler set size:53239 disposed:false
+151 silly fetch manifest supports-color@^7.1.0
+152 silly packumentCache full:https://registry.npmjs.org/supports-color cache-miss
+153 http fetch GET 200 https://registry.npmjs.org/appdirsjs 1147ms (cache revalidated)
+154 silly packumentCache full:https://registry.npmjs.org/appdirsjs set size:27386 disposed:false
+155 silly fetch manifest onetime@^5.1.2
+156 silly packumentCache full:https://registry.npmjs.org/onetime cache-miss
+157 http fetch GET 200 https://registry.npmjs.org/launch-editor 1146ms (cache miss)
+158 silly packumentCache full:https://registry.npmjs.org/launch-editor set size:undefined disposed:false
+159 silly fetch manifest is-stream@^2.0.0
+160 silly packumentCache full:https://registry.npmjs.org/is-stream cache-miss
+161 http fetch GET 200 https://registry.npmjs.org/ansi-styles 903ms (cache revalidated)
+162 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:63233 disposed:false
+163 silly fetch manifest get-stream@^6.0.0
+164 silly packumentCache full:https://registry.npmjs.org/get-stream cache-miss
+165 http fetch GET 200 https://registry.npmjs.org/supports-color 340ms (cache revalidated)
+166 silly packumentCache full:https://registry.npmjs.org/supports-color set size:118680 disposed:false
+167 silly fetch manifest signal-exit@^3.0.3
+168 silly packumentCache full:https://registry.npmjs.org/signal-exit cache-miss
+169 http fetch GET 200 https://registry.npmjs.org/onetime 167ms (cache revalidated)
+170 silly packumentCache full:https://registry.npmjs.org/onetime set size:30525 disposed:false
+171 silly fetch manifest npm-run-path@^4.0.1
+172 silly packumentCache full:https://registry.npmjs.org/npm-run-path cache-miss
+173 http fetch GET 200 https://registry.npmjs.org/is-stream 212ms (cache revalidated)
+174 silly packumentCache full:https://registry.npmjs.org/is-stream set size:18582 disposed:false
+175 silly fetch manifest human-signals@^2.1.0
+176 silly packumentCache full:https://registry.npmjs.org/human-signals cache-miss
+177 http fetch GET 200 https://registry.npmjs.org/@vscode%2fsudo-prompt 1238ms (cache miss)
+178 silly packumentCache full:https://registry.npmjs.org/@vscode%2fsudo-prompt set size:undefined disposed:false
+179 silly fetch manifest strip-final-newline@^2.0.0
+180 silly packumentCache full:https://registry.npmjs.org/strip-final-newline cache-miss
+181 http fetch GET 200 https://registry.npmjs.org/get-stream 198ms (cache revalidated)
+182 silly packumentCache full:https://registry.npmjs.org/get-stream set size:57536 disposed:false
+183 silly fetch manifest locate-path@^6.0.0
+184 silly packumentCache full:https://registry.npmjs.org/locate-path cache-miss
+185 http fetch GET 200 https://registry.npmjs.org/signal-exit 226ms (cache revalidated)
+186 silly packumentCache full:https://registry.npmjs.org/signal-exit set size:53489 disposed:false
+187 silly fetch manifest jsonfile@^4.0.0
+188 silly packumentCache full:https://registry.npmjs.org/jsonfile cache-miss
+189 http fetch GET 200 https://registry.npmjs.org/npm-run-path 248ms (cache revalidated)
+190 silly packumentCache full:https://registry.npmjs.org/npm-run-path set size:33596 disposed:false
+191 silly fetch manifest universalify@^0.1.0
+192 silly packumentCache full:https://registry.npmjs.org/universalify cache-miss
+193 http fetch GET 200 https://registry.npmjs.org/locate-path 196ms (cache revalidated)
+194 silly packumentCache full:https://registry.npmjs.org/locate-path set size:31329 disposed:false
+195 http fetch GET 200 https://registry.npmjs.org/strip-final-newline 221ms (cache miss)
+196 silly packumentCache full:https://registry.npmjs.org/strip-final-newline set size:undefined disposed:false
+197 http fetch GET 200 https://registry.npmjs.org/human-signals 297ms (cache miss)
+198 silly packumentCache full:https://registry.npmjs.org/human-signals set size:undefined disposed:false
+199 http fetch GET 200 https://registry.npmjs.org/jsonfile 193ms (cache revalidated)
+200 silly packumentCache full:https://registry.npmjs.org/jsonfile set size:51505 disposed:false
+201 http fetch GET 200 https://registry.npmjs.org/universalify 165ms (cache revalidated)
+202 silly packumentCache full:https://registry.npmjs.org/universalify set size:19431 disposed:false
+203 silly placeDep node_modules/@react-native-community/cli-clean chalk@4.1.2 OK for: @react-native-community/cli-clean@20.0.2 want: ^4.1.2
+204 silly placeDep ROOT fast-glob@3.3.3 OK for: @react-native-community/cli-clean@20.0.2 want: ^3.3.2
+205 silly fetch manifest @nodelib/fs.stat@^2.0.2
+206 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.stat cache-miss
+207 silly fetch manifest @nodelib/fs.walk@^1.2.3
+208 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.walk cache-miss
+209 silly fetch manifest glob-parent@^5.1.2
+210 silly packumentCache full:https://registry.npmjs.org/glob-parent cache-miss
+211 silly fetch manifest merge2@^1.3.0
+212 silly packumentCache full:https://registry.npmjs.org/merge2 cache-miss
+213 http fetch GET 200 https://registry.npmjs.org/glob-parent 227ms (cache miss)
+214 silly packumentCache full:https://registry.npmjs.org/glob-parent set size:undefined disposed:false
+215 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.walk 290ms (cache miss)
+216 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.walk set size:undefined disposed:false
+217 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.stat 347ms (cache miss)
+218 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.stat set size:undefined disposed:false
+219 http fetch GET 200 https://registry.npmjs.org/merge2 347ms (cache miss)
+220 silly packumentCache full:https://registry.npmjs.org/merge2 set size:undefined disposed:false
+221 silly fetch manifest typescript@>=4.9.5
+222 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+223 http fetch GET 200 https://registry.npmjs.org/typescript 5676ms (cache miss)
+224 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
+225 silly placeDep node_modules/@react-native-community/cli-config chalk@4.1.2 OK for: @react-native-community/cli-config@20.0.2 want: ^4.1.2
+226 silly placeDep ROOT cosmiconfig@9.0.0 OK for: @react-native-community/cli-config@20.0.2 want: ^9.0.0
+227 silly placeDep ROOT joi@17.13.3 OK for: @react-native-community/cli-config@20.0.2 want: ^17.2.1
+228 silly fetch manifest env-paths@^2.2.1
+229 silly packumentCache full:https://registry.npmjs.org/env-paths cache-miss
+230 silly fetch manifest import-fresh@^3.3.0
+231 silly packumentCache full:https://registry.npmjs.org/import-fresh cache-miss
+232 silly fetch manifest js-yaml@^4.1.0
+233 silly packumentCache full:https://registry.npmjs.org/js-yaml cache-miss
+234 silly fetch manifest parse-json@^5.2.0
+235 silly packumentCache full:https://registry.npmjs.org/parse-json cache-miss
+236 silly fetch manifest @hapi/hoek@^9.3.0
+237 silly packumentCache full:https://registry.npmjs.org/@hapi%2fhoek cache-miss
+238 http fetch GET 200 https://registry.npmjs.org/env-paths 214ms (cache miss)
+239 silly packumentCache full:https://registry.npmjs.org/env-paths set size:undefined disposed:false
+240 silly fetch manifest @hapi/topo@^5.1.0
+241 silly packumentCache full:https://registry.npmjs.org/@hapi%2ftopo cache-miss
+242 http fetch GET 200 https://registry.npmjs.org/parse-json 238ms (cache revalidated)
+243 silly packumentCache full:https://registry.npmjs.org/parse-json set size:48198 disposed:false
+244 silly fetch manifest @sideway/address@^4.1.5
+245 silly packumentCache full:https://registry.npmjs.org/@sideway%2faddress cache-miss
+246 http fetch GET 200 https://registry.npmjs.org/js-yaml 304ms (cache revalidated)
+247 silly packumentCache full:https://registry.npmjs.org/js-yaml set size:152232 disposed:false
+248 silly fetch manifest @sideway/formula@^3.0.1
+249 silly packumentCache full:https://registry.npmjs.org/@sideway%2fformula cache-miss
+250 http fetch GET 200 https://registry.npmjs.org/import-fresh 327ms (cache revalidated)
+251 silly packumentCache full:https://registry.npmjs.org/import-fresh set size:21461 disposed:false
+252 silly fetch manifest @sideway/pinpoint@^2.0.0
+253 silly packumentCache full:https://registry.npmjs.org/@sideway%2fpinpoint cache-miss
+254 http fetch GET 200 https://registry.npmjs.org/@hapi%2fhoek 393ms (cache revalidated)
+255 silly packumentCache full:https://registry.npmjs.org/@hapi%2fhoek set size:121527 disposed:false
+256 http fetch GET 200 https://registry.npmjs.org/@hapi%2ftopo 253ms (cache revalidated)
+257 silly packumentCache full:https://registry.npmjs.org/@hapi%2ftopo set size:36881 disposed:false
+258 http fetch GET 200 https://registry.npmjs.org/@sideway%2faddress 240ms (cache revalidated)
+259 silly packumentCache full:https://registry.npmjs.org/@sideway%2faddress set size:18241 disposed:false
+260 http fetch GET 200 https://registry.npmjs.org/@sideway%2fformula 221ms (cache revalidated)
+261 silly packumentCache full:https://registry.npmjs.org/@sideway%2fformula set size:6366 disposed:false
+262 http fetch GET 200 https://registry.npmjs.org/@sideway%2fpinpoint 277ms (cache revalidated)
+263 silly packumentCache full:https://registry.npmjs.org/@sideway%2fpinpoint set size:3672 disposed:false
+264 silly placeDep ROOT @react-native-community/cli-platform-android@20.0.2 OK for: @react-native-community/cli-doctor@20.0.2 want: 20.0.2
+265 silly placeDep ROOT @react-native-community/cli-platform-apple@20.0.2 OK for: @react-native-community/cli-doctor@20.0.2 want: 20.0.2
+266 silly placeDep ROOT @react-native-community/cli-platform-ios@20.0.2 OK for: @react-native-community/cli-doctor@20.0.2 want: 20.0.2
+267 silly placeDep node_modules/@react-native-community/cli-doctor chalk@4.1.2 OK for: @react-native-community/cli-doctor@20.0.2 want: ^4.1.2
+268 silly placeDep ROOT command-exists@1.2.9 OK for: @react-native-community/cli-doctor@20.0.2 want: ^1.2.8
+269 silly placeDep ROOT envinfo@7.20.0 OK for: @react-native-community/cli-doctor@20.0.2 want: ^7.13.0
+270 silly placeDep ROOT node-stream-zip@1.15.0 OK for: @react-native-community/cli-doctor@20.0.2 want: ^1.9.1
+271 silly placeDep node_modules/@react-native-community/cli-doctor ora@5.4.1 OK for: @react-native-community/cli-doctor@20.0.2 want: ^5.4.1
+272 silly fetch manifest logkitty@^0.7.1
+273 silly packumentCache full:https://registry.npmjs.org/logkitty cache-miss
+274 silly fetch manifest @react-native-community/cli-config-android@20.0.2
+275 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-config-android cache-miss
+276 silly fetch manifest fast-xml-parser@^4.4.1
+277 silly packumentCache full:https://registry.npmjs.org/fast-xml-parser cache-miss
+278 silly fetch manifest @react-native-community/cli-config-apple@20.0.2
+279 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-config-apple cache-miss
+280 silly fetch manifest bl@^4.1.0
+281 silly packumentCache full:https://registry.npmjs.org/bl cache-miss
+282 http fetch GET 200 https://registry.npmjs.org/logkitty 263ms (cache revalidated)
+283 silly packumentCache full:https://registry.npmjs.org/logkitty set size:68390 disposed:false
+284 silly fetch manifest cli-cursor@^3.1.0
+285 silly packumentCache full:https://registry.npmjs.org/cli-cursor cache-miss
+286 http fetch GET 200 https://registry.npmjs.org/bl 325ms (cache revalidated)
+287 silly packumentCache full:https://registry.npmjs.org/bl set size:186025 disposed:false
+288 silly fetch manifest strip-ansi@^6.0.0
+289 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+290 http fetch GET 200 https://registry.npmjs.org/fast-xml-parser 374ms (cache revalidated)
+291 silly packumentCache full:https://registry.npmjs.org/fast-xml-parser set size:503815 disposed:false
+292 silly fetch manifest log-symbols@^4.1.0
+293 silly packumentCache full:https://registry.npmjs.org/log-symbols cache-miss
+294 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-config-android 439ms (cache miss)
+295 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-config-android set size:undefined disposed:false
+296 silly fetch manifest is-interactive@^1.0.0
+297 silly packumentCache full:https://registry.npmjs.org/is-interactive cache-miss
+298 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-config-apple 448ms (cache miss)
+299 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-config-apple set size:undefined disposed:false
+300 silly fetch manifest is-unicode-supported@^0.1.0
+301 silly packumentCache full:https://registry.npmjs.org/is-unicode-supported cache-miss
+302 http fetch GET 200 https://registry.npmjs.org/cli-cursor 202ms (cache revalidated)
+303 silly packumentCache full:https://registry.npmjs.org/cli-cursor set size:18913 disposed:false
+304 http fetch GET 200 https://registry.npmjs.org/strip-ansi 196ms (cache revalidated)
+305 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:41855 disposed:false
+306 http fetch GET 200 https://registry.npmjs.org/log-symbols 205ms (cache revalidated)
+307 silly packumentCache full:https://registry.npmjs.org/log-symbols set size:31977 disposed:false
+308 http fetch GET 200 https://registry.npmjs.org/is-unicode-supported 241ms (cache revalidated)
+309 silly packumentCache full:https://registry.npmjs.org/is-unicode-supported set size:19461 disposed:false
+310 http fetch GET 200 https://registry.npmjs.org/is-interactive 380ms (cache revalidated)
+311 silly packumentCache full:https://registry.npmjs.org/is-interactive set size:10692 disposed:false
+312 silly placeDep ROOT @react-native-community/cli-config-android@20.0.2 OK for: @react-native-community/cli-platform-android@20.0.2 want: 20.0.2
+313 silly placeDep node_modules/@react-native-community/cli-platform-android chalk@4.1.2 OK for: @react-native-community/cli-platform-android@20.0.2 want: ^4.1.2
+314 silly placeDep ROOT logkitty@0.7.1 OK for: @react-native-community/cli-platform-android@20.0.2 want: ^0.7.1
+315 silly fetch manifest ansi-fragments@^0.2.1
+316 silly packumentCache full:https://registry.npmjs.org/ansi-fragments cache-miss
+317 silly fetch manifest dayjs@^1.8.15
+318 silly packumentCache full:https://registry.npmjs.org/dayjs cache-miss
+319 silly fetch manifest yargs@^15.1.0
+320 silly packumentCache full:https://registry.npmjs.org/yargs cache-miss
+321 http fetch GET 200 https://registry.npmjs.org/ansi-fragments 183ms (cache revalidated)
+322 silly packumentCache full:https://registry.npmjs.org/ansi-fragments set size:17232 disposed:false
+323 http fetch GET 200 https://registry.npmjs.org/yargs 235ms (cache revalidated)
+324 silly packumentCache full:https://registry.npmjs.org/yargs set size:743056 disposed:false
+325 http fetch GET 200 https://registry.npmjs.org/dayjs 305ms (cache revalidated)
+326 silly packumentCache full:https://registry.npmjs.org/dayjs set size:483478 disposed:false
+327 silly placeDep node_modules/@react-native-community/cli-config-android chalk@4.1.2 OK for: @react-native-community/cli-config-android@20.0.2 want: ^4.1.2
+328 silly placeDep ROOT fast-xml-parser@4.5.3 OK for: @react-native-community/cli-config-android@20.0.2 want: ^4.4.1
+329 silly fetch manifest strnum@^1.1.1
+330 silly packumentCache full:https://registry.npmjs.org/strnum cache-miss
+331 http fetch GET 200 https://registry.npmjs.org/strnum 217ms (cache revalidated)
+332 silly packumentCache full:https://registry.npmjs.org/strnum set size:32949 disposed:false
+333 silly placeDep ROOT @react-native-community/cli-config-apple@20.0.2 OK for: @react-native-community/cli-platform-apple@20.0.2 want: 20.0.2
+334 silly placeDep node_modules/@react-native-community/cli-platform-apple chalk@4.1.2 OK for: @react-native-community/cli-platform-apple@20.0.2 want: ^4.1.2
+335 silly placeDep node_modules/@react-native-community/cli-config-apple chalk@4.1.2 OK for: @react-native-community/cli-config-apple@20.0.2 want: ^4.1.2
+336 silly placeDep ROOT body-parser@1.20.3 OK for: @react-native-community/cli-server-api@20.0.2 want: ^1.20.3
+337 silly placeDep ROOT errorhandler@1.5.1 OK for: @react-native-community/cli-server-api@20.0.2 want: ^1.5.1
+338 silly placeDep ROOT nocache@3.0.4 OK for: @react-native-community/cli-server-api@20.0.2 want: ^3.0.1
+339 silly placeDep node_modules/@react-native-community/cli-server-api open@6.4.0 OK for: @react-native-community/cli-server-api@20.0.2 want: ^6.2.0
+340 silly placeDep node_modules/@react-native-community/cli-server-api ws@6.2.3 OK for: @react-native-community/cli-server-api@20.0.2 want: ^6.2.3
+341 silly fetch manifest qs@6.13.0
+342 silly packumentCache full:https://registry.npmjs.org/qs cache-miss
+343 silly fetch manifest debug@2.6.9
+344 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+345 silly fetch manifest type-is@~1.6.18
+346 silly packumentCache full:https://registry.npmjs.org/type-is cache-miss
+347 silly fetch manifest raw-body@2.5.2
+348 silly packumentCache full:https://registry.npmjs.org/raw-body cache-miss
+349 silly fetch manifest iconv-lite@0.4.24
+350 silly packumentCache full:https://registry.npmjs.org/iconv-lite cache-miss
+351 http fetch GET 200 https://registry.npmjs.org/debug 242ms (cache revalidated)
+352 silly packumentCache full:https://registry.npmjs.org/debug set size:195840 disposed:false
+353 silly fetch manifest on-finished@2.4.1
+354 silly packumentCache full:https://registry.npmjs.org/on-finished cache-miss
+355 http fetch GET 200 https://registry.npmjs.org/type-is 318ms (cache revalidated)
+356 silly packumentCache full:https://registry.npmjs.org/type-is set size:86196 disposed:false
+357 silly fetch manifest content-type@~1.0.5
+358 silly packumentCache full:https://registry.npmjs.org/content-type cache-miss
+359 http fetch GET 200 https://registry.npmjs.org/raw-body 311ms (cache revalidated)
+360 silly packumentCache full:https://registry.npmjs.org/raw-body set size:113582 disposed:false
+361 silly fetch manifest is-wsl@^1.1.0
+362 silly packumentCache full:https://registry.npmjs.org/is-wsl cache-miss
+363 http fetch GET 200 https://registry.npmjs.org/qs 362ms (cache revalidated)
+364 silly packumentCache full:https://registry.npmjs.org/qs set size:264677 disposed:false
+365 http fetch GET 200 https://registry.npmjs.org/on-finished 147ms (cache revalidated)
+366 silly packumentCache full:https://registry.npmjs.org/on-finished set size:23212 disposed:false
+367 http fetch GET 200 https://registry.npmjs.org/iconv-lite 393ms (cache revalidated)
+368 silly packumentCache full:https://registry.npmjs.org/iconv-lite set size:118890 disposed:false
+369 http fetch GET 200 https://registry.npmjs.org/content-type 239ms (cache revalidated)
+370 silly packumentCache full:https://registry.npmjs.org/content-type set size:17311 disposed:false
+371 http fetch GET 200 https://registry.npmjs.org/is-wsl 235ms (cache revalidated)
+372 silly packumentCache full:https://registry.npmjs.org/is-wsl set size:18741 disposed:false
+373 silly placeDep ROOT @vscode/sudo-prompt@9.3.1 OK for: @react-native-community/cli-tools@20.0.2 want: ^9.0.0
+374 silly placeDep ROOT appdirsjs@1.2.7 OK for: @react-native-community/cli-tools@20.0.2 want: ^1.2.4
+375 silly placeDep node_modules/@react-native-community/cli-tools chalk@4.1.2 OK for: @react-native-community/cli-tools@20.0.2 want: ^4.1.2
+376 silly placeDep node_modules/@react-native-community/cli-tools find-up@5.0.0 OK for: @react-native-community/cli-tools@20.0.2 want: ^5.0.0
+377 silly placeDep ROOT launch-editor@2.12.0 OK for: @react-native-community/cli-tools@20.0.2 want: ^2.9.1
+378 silly placeDep node_modules/@react-native-community/cli-tools mime@2.6.0 OK for: @react-native-community/cli-tools@20.0.2 want: ^2.4.1
+379 silly placeDep node_modules/@react-native-community/cli-tools ora@5.4.1 OK for: @react-native-community/cli-tools@20.0.2 want: ^5.4.1
+380 silly placeDep ROOT content-type@1.0.5 OK for: body-parser@1.20.3 want: ~1.0.5
+381 silly placeDep node_modules/body-parser debug@2.6.9 OK for: body-parser@1.20.3 want: 2.6.9
+382 silly placeDep ROOT iconv-lite@0.4.24 OK for: body-parser@1.20.3 want: 0.4.24
+383 silly placeDep node_modules/body-parser on-finished@2.4.1 OK for: body-parser@1.20.3 want: 2.4.1
+384 silly placeDep ROOT qs@6.13.0 OK for: body-parser@1.20.3 want: 6.13.0
+385 silly placeDep ROOT raw-body@2.5.2 OK for: body-parser@1.20.3 want: 2.5.2
+386 silly placeDep ROOT type-is@1.6.18 OK for: body-parser@1.20.3 want: ~1.6.18
+387 silly fetch manifest ms@2.0.0
+388 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+389 silly fetch manifest safer-buffer@>= 2.1.2 < 3
+390 silly packumentCache full:https://registry.npmjs.org/safer-buffer cache-miss
+391 silly fetch manifest side-channel@^1.0.6
+392 silly packumentCache full:https://registry.npmjs.org/side-channel cache-miss
+393 silly fetch manifest media-typer@0.3.0
+394 silly packumentCache full:https://registry.npmjs.org/media-typer cache-miss
+395 http fetch GET 200 https://registry.npmjs.org/side-channel 231ms (cache revalidated)
+396 silly packumentCache full:https://registry.npmjs.org/side-channel set size:24660 disposed:false
+397 http fetch GET 200 https://registry.npmjs.org/safer-buffer 252ms (cache revalidated)
+398 silly packumentCache full:https://registry.npmjs.org/safer-buffer set size:18521 disposed:false
+399 http fetch GET 200 https://registry.npmjs.org/media-typer 267ms (cache revalidated)
+400 silly packumentCache full:https://registry.npmjs.org/media-typer set size:20873 disposed:false
+401 http fetch GET 200 https://registry.npmjs.org/ms 274ms (cache revalidated)
+402 silly packumentCache full:https://registry.npmjs.org/ms set size:92208 disposed:false
+403 silly placeDep ROOT env-paths@2.2.1 OK for: cosmiconfig@9.0.0 want: ^2.2.1
+404 silly placeDep ROOT import-fresh@3.3.1 OK for: cosmiconfig@9.0.0 want: ^3.3.0
+405 silly placeDep node_modules/cosmiconfig js-yaml@4.1.1 OK for: cosmiconfig@9.0.0 want: ^4.1.0
+406 silly placeDep ROOT parse-json@5.2.0 OK for: cosmiconfig@9.0.0 want: ^5.2.0
+407 silly fetch manifest parent-module@^1.0.0
+408 silly packumentCache full:https://registry.npmjs.org/parent-module cache-miss
+409 silly fetch manifest resolve-from@^4.0.0
+410 silly packumentCache full:https://registry.npmjs.org/resolve-from cache-miss
+411 silly fetch manifest argparse@^2.0.1
+412 silly packumentCache full:https://registry.npmjs.org/argparse cache-miss
+413 silly fetch manifest error-ex@^1.3.1
+414 silly packumentCache full:https://registry.npmjs.org/error-ex cache-miss
+415 silly fetch manifest json-parse-even-better-errors@^2.3.0
+416 silly packumentCache full:https://registry.npmjs.org/json-parse-even-better-errors cache-miss
+417 http fetch GET 200 https://registry.npmjs.org/parent-module 218ms (cache miss)
+418 silly packumentCache full:https://registry.npmjs.org/parent-module set size:undefined disposed:false
+419 http fetch GET 200 https://registry.npmjs.org/json-parse-even-better-errors 222ms (cache miss)
+420 silly packumentCache full:https://registry.npmjs.org/json-parse-even-better-errors set size:undefined disposed:false
+421 http fetch GET 200 https://registry.npmjs.org/resolve-from 262ms (cache revalidated)
+422 silly packumentCache full:https://registry.npmjs.org/resolve-from set size:12911 disposed:false
+423 http fetch GET 200 https://registry.npmjs.org/argparse 266ms (cache revalidated)
+424 silly packumentCache full:https://registry.npmjs.org/argparse set size:49266 disposed:false
+425 http fetch GET 200 https://registry.npmjs.org/error-ex 320ms (cache revalidated)
+426 silly packumentCache full:https://registry.npmjs.org/error-ex set size:31684 disposed:false
+427 silly placeDep ROOT get-stream@6.0.1 OK for: execa@5.1.1 want: ^6.0.0
+428 silly placeDep ROOT human-signals@2.1.0 OK for: execa@5.1.1 want: ^2.1.0
+429 silly placeDep ROOT is-stream@2.0.1 OK for: execa@5.1.1 want: ^2.0.0
+430 silly placeDep ROOT npm-run-path@4.0.1 OK for: execa@5.1.1 want: ^4.0.1
+431 silly placeDep node_modules/execa onetime@5.1.2 OK for: execa@5.1.1 want: ^5.1.2
+432 silly placeDep node_modules/execa signal-exit@3.0.7 OK for: execa@5.1.1 want: ^3.0.3
+433 silly placeDep ROOT strip-final-newline@2.0.0 OK for: execa@5.1.1 want: ^2.0.0
+434 silly fetch manifest mimic-fn@^2.1.0
+435 silly packumentCache full:https://registry.npmjs.org/mimic-fn cache-miss
+436 http fetch GET 200 https://registry.npmjs.org/mimic-fn 193ms (cache revalidated)
+437 silly packumentCache full:https://registry.npmjs.org/mimic-fn set size:22257 disposed:false
+438 silly placeDep ROOT @nodelib/fs.stat@2.0.5 OK for: fast-glob@3.3.3 want: ^2.0.2
+439 silly placeDep ROOT @nodelib/fs.walk@1.2.8 OK for: fast-glob@3.3.3 want: ^1.2.3
+440 silly placeDep ROOT glob-parent@5.1.2 OK for: fast-glob@3.3.3 want: ^5.1.2
+441 silly placeDep ROOT merge2@1.4.1 OK for: fast-glob@3.3.3 want: ^1.3.0
+442 silly fetch manifest fastq@^1.6.0
+443 silly packumentCache full:https://registry.npmjs.org/fastq cache-miss
+444 silly fetch manifest @nodelib/fs.scandir@2.1.5
+445 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.scandir cache-miss
+446 silly fetch manifest is-glob@^4.0.1
+447 silly packumentCache full:https://registry.npmjs.org/is-glob cache-miss
+448 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.scandir 234ms (cache miss)
+449 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.scandir set size:undefined disposed:false
+450 http fetch GET 200 https://registry.npmjs.org/fastq 239ms (cache miss)
+451 silly packumentCache full:https://registry.npmjs.org/fastq set size:undefined disposed:false
+452 http fetch GET 200 https://registry.npmjs.org/is-glob 243ms (cache miss)
+453 silly packumentCache full:https://registry.npmjs.org/is-glob set size:undefined disposed:false
+454 silly placeDep ROOT @nodelib/fs.scandir@2.1.5 OK for: @nodelib/fs.walk@1.2.8 want: 2.1.5
+455 silly placeDep ROOT fastq@1.19.1 OK for: @nodelib/fs.walk@1.2.8 want: ^1.6.0
+456 silly fetch manifest run-parallel@^1.1.9
+457 silly packumentCache full:https://registry.npmjs.org/run-parallel cache-miss
+458 silly fetch manifest reusify@^1.0.4
+459 silly packumentCache full:https://registry.npmjs.org/reusify cache-miss
+460 http fetch GET 200 https://registry.npmjs.org/reusify 198ms (cache miss)
+461 silly packumentCache full:https://registry.npmjs.org/reusify set size:undefined disposed:false
+462 http fetch GET 200 https://registry.npmjs.org/run-parallel 257ms (cache miss)
+463 silly packumentCache full:https://registry.npmjs.org/run-parallel set size:undefined disposed:false
+464 silly placeDep ROOT run-parallel@1.2.0 OK for: @nodelib/fs.scandir@2.1.5 want: ^1.1.9
+465 silly fetch manifest queue-microtask@^1.2.2
+466 silly packumentCache full:https://registry.npmjs.org/queue-microtask cache-miss
+467 http fetch GET 200 https://registry.npmjs.org/queue-microtask 172ms (cache miss)
+468 silly packumentCache full:https://registry.npmjs.org/queue-microtask set size:undefined disposed:false
+469 silly placeDep ROOT strnum@1.1.2 OK for: fast-xml-parser@4.5.3 want: ^1.1.1
+470 silly placeDep ROOT reusify@1.1.0 OK for: fastq@1.19.1 want: ^1.0.4
+471 silly placeDep ROOT jsonfile@4.0.0 OK for: fs-extra@8.1.0 want: ^4.0.0
+472 silly placeDep ROOT universalify@0.1.2 OK for: fs-extra@8.1.0 want: ^0.1.0
+473 silly placeDep ROOT is-glob@4.0.3 OK for: glob-parent@5.1.2 want: ^4.0.1
+474 silly fetch manifest is-extglob@^2.1.1
+475 silly packumentCache full:https://registry.npmjs.org/is-extglob cache-miss
+476 http fetch GET 200 https://registry.npmjs.org/is-extglob 203ms (cache miss)
+477 silly packumentCache full:https://registry.npmjs.org/is-extglob set size:undefined disposed:false
+478 silly placeDep ROOT safer-buffer@2.1.2 OK for: iconv-lite@0.4.24 want: >= 2.1.2 < 3
+479 silly placeDep ROOT parent-module@1.0.1 OK for: import-fresh@3.3.1 want: ^1.0.0
+480 silly placeDep node_modules/import-fresh resolve-from@4.0.0 OK for: import-fresh@3.3.1 want: ^4.0.0
+481 silly fetch manifest callsites@^3.0.0
+482 silly packumentCache full:https://registry.npmjs.org/callsites cache-miss
+483 http fetch GET 200 https://registry.npmjs.org/callsites 375ms (cache revalidated)
+484 silly packumentCache full:https://registry.npmjs.org/callsites set size:21349 disposed:false
+485 silly placeDep ROOT is-extglob@2.1.1 OK for: is-glob@4.0.3 want: ^2.1.1
+486 silly placeDep ROOT @hapi/hoek@9.3.0 OK for: joi@17.13.3 want: ^9.3.0
+487 silly placeDep ROOT @hapi/topo@5.1.0 OK for: joi@17.13.3 want: ^5.1.0
+488 silly placeDep ROOT @sideway/address@4.1.5 OK for: joi@17.13.3 want: ^4.1.5
+489 silly placeDep ROOT @sideway/formula@3.0.1 OK for: joi@17.13.3 want: ^3.0.1
+490 silly placeDep ROOT @sideway/pinpoint@2.0.0 OK for: joi@17.13.3 want: ^2.0.0
+491 silly placeDep ROOT ansi-fragments@0.2.1 OK for: logkitty@0.7.1 want: ^0.2.1
+492 silly placeDep ROOT dayjs@1.11.19 OK for: logkitty@0.7.1 want: ^1.8.15
+493 silly placeDep node_modules/logkitty yargs@15.4.1 OK for: logkitty@0.7.1 want: ^15.1.0
+494 silly fetch manifest colorette@^1.0.7
+495 silly packumentCache full:https://registry.npmjs.org/colorette cache-miss
+496 silly fetch manifest slice-ansi@^2.0.0
+497 silly packumentCache full:https://registry.npmjs.org/slice-ansi cache-miss
+498 silly fetch manifest strip-ansi@^5.0.0
+499 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-hit
+500 silly fetch manifest y18n@^4.0.0
+501 silly packumentCache full:https://registry.npmjs.org/y18n cache-miss
+502 silly fetch manifest cliui@^6.0.0
+503 silly packumentCache full:https://registry.npmjs.org/cliui cache-miss
+504 silly fetch manifest decamelize@^1.2.0
+505 silly packumentCache full:https://registry.npmjs.org/decamelize cache-miss
+506 http fetch GET 200 https://registry.npmjs.org/y18n 228ms (cache revalidated)
+507 silly packumentCache full:https://registry.npmjs.org/y18n set size:76155 disposed:false
+508 silly fetch manifest set-blocking@^2.0.0
+509 silly packumentCache full:https://registry.npmjs.org/set-blocking cache-miss
+510 http fetch GET 200 https://registry.npmjs.org/cliui 281ms (cache revalidated)
+511 silly packumentCache full:https://registry.npmjs.org/cliui set size:69089 disposed:false
+512 silly fetch manifest string-width@^4.2.0
+513 silly packumentCache full:https://registry.npmjs.org/string-width cache-miss
+514 http fetch GET 200 https://registry.npmjs.org/colorette 301ms (cache revalidated)
+515 silly packumentCache full:https://registry.npmjs.org/colorette set size:92733 disposed:false
+516 silly fetch manifest which-module@^2.0.0
+517 silly packumentCache full:https://registry.npmjs.org/which-module cache-miss
+518 http fetch GET 200 https://registry.npmjs.org/slice-ansi 434ms (cache revalidated)
+519 silly packumentCache full:https://registry.npmjs.org/slice-ansi set size:31098 disposed:false
+520 silly fetch manifest yargs-parser@^18.1.2
+521 silly packumentCache full:https://registry.npmjs.org/yargs-parser cache-miss
+522 http fetch GET 200 https://registry.npmjs.org/string-width 183ms (cache revalidated)
+523 silly packumentCache full:https://registry.npmjs.org/string-width set size:64158 disposed:false
+524 silly fetch manifest require-main-filename@^2.0.0
+525 silly packumentCache full:https://registry.npmjs.org/require-main-filename cache-miss
+526 http fetch GET 200 https://registry.npmjs.org/decamelize 480ms (cache revalidated)
+527 silly packumentCache full:https://registry.npmjs.org/decamelize set size:34500 disposed:false
+528 http fetch GET 200 https://registry.npmjs.org/set-blocking 321ms (cache revalidated)
+529 silly packumentCache full:https://registry.npmjs.org/set-blocking set size:5763 disposed:false
+530 http fetch GET 200 https://registry.npmjs.org/yargs-parser 190ms (cache revalidated)
+531 silly packumentCache full:https://registry.npmjs.org/yargs-parser set size:238630 disposed:false
+532 http fetch GET 200 https://registry.npmjs.org/which-module 399ms (cache revalidated)
+533 silly packumentCache full:https://registry.npmjs.org/which-module set size:13898 disposed:false
+534 http fetch GET 200 https://registry.npmjs.org/require-main-filename 415ms (cache revalidated)
+535 silly packumentCache full:https://registry.npmjs.org/require-main-filename set size:7471 disposed:false
+536 silly placeDep ROOT colorette@1.4.0 OK for: ansi-fragments@0.2.1 want: ^1.0.7
+537 silly placeDep ROOT slice-ansi@2.1.0 OK for: ansi-fragments@0.2.1 want: ^2.0.0
+538 silly placeDep node_modules/ansi-fragments strip-ansi@5.2.0 OK for: ansi-fragments@0.2.1 want: ^5.0.0
+539 silly fetch manifest astral-regex@^1.0.0
+540 silly packumentCache full:https://registry.npmjs.org/astral-regex cache-miss
+541 silly fetch manifest is-fullwidth-code-point@^2.0.0
+542 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point cache-miss
+543 silly fetch manifest ansi-regex@^4.1.0
+544 silly packumentCache full:https://registry.npmjs.org/ansi-regex cache-miss
+545 http fetch GET 200 https://registry.npmjs.org/astral-regex 178ms (cache revalidated)
+546 silly packumentCache full:https://registry.npmjs.org/astral-regex set size:5602 disposed:false
+547 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 222ms (cache revalidated)
+548 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point set size:14578 disposed:false
+549 http fetch GET 200 https://registry.npmjs.org/ansi-regex 240ms (cache revalidated)
+550 silly packumentCache full:https://registry.npmjs.org/ansi-regex set size:43572 disposed:false
+551 silly placeDep ROOT callsites@3.1.0 OK for: parent-module@1.0.1 want: ^3.0.0
+552 silly placeDep ROOT error-ex@1.3.4 OK for: parse-json@5.2.0 want: ^1.3.1
+553 silly placeDep ROOT json-parse-even-better-errors@2.3.1 OK for: parse-json@5.2.0 want: ^2.3.0
+554 silly fetch manifest is-arrayish@^0.2.1
+555 silly packumentCache full:https://registry.npmjs.org/is-arrayish cache-miss
+556 http fetch GET 200 https://registry.npmjs.org/is-arrayish 174ms (cache revalidated)
+557 silly packumentCache full:https://registry.npmjs.org/is-arrayish set size:15371 disposed:false
+558 silly placeDep ROOT is-arrayish@0.2.1 OK for: error-ex@1.3.4 want: ^0.2.1
+559 silly placeDep ROOT side-channel@1.1.0 OK for: qs@6.13.0 want: ^1.0.6
+560 silly fetch manifest es-errors@^1.3.0
+561 silly packumentCache full:https://registry.npmjs.org/es-errors cache-miss
+562 silly fetch manifest object-inspect@^1.13.3
+563 silly packumentCache full:https://registry.npmjs.org/object-inspect cache-miss
+564 silly fetch manifest side-channel-list@^1.0.0
+565 silly packumentCache full:https://registry.npmjs.org/side-channel-list cache-miss
+566 silly fetch manifest side-channel-map@^1.0.1
+567 silly packumentCache full:https://registry.npmjs.org/side-channel-map cache-miss
+568 silly fetch manifest side-channel-weakmap@^1.0.2
+569 silly packumentCache full:https://registry.npmjs.org/side-channel-weakmap cache-miss
+570 http fetch GET 200 https://registry.npmjs.org/es-errors 188ms (cache revalidated)
+571 silly packumentCache full:https://registry.npmjs.org/es-errors set size:16918 disposed:false
+572 http fetch GET 200 https://registry.npmjs.org/side-channel-list 226ms (cache revalidated)
+573 silly packumentCache full:https://registry.npmjs.org/side-channel-list set size:6005 disposed:false
+574 http fetch GET 200 https://registry.npmjs.org/side-channel-map 248ms (cache revalidated)
+575 silly packumentCache full:https://registry.npmjs.org/side-channel-map set size:9126 disposed:false
+576 http fetch GET 200 https://registry.npmjs.org/object-inspect 258ms (cache revalidated)
+577 silly packumentCache full:https://registry.npmjs.org/object-inspect set size:101912 disposed:false
+578 http fetch GET 200 https://registry.npmjs.org/side-channel-weakmap 283ms (cache revalidated)
+579 silly packumentCache full:https://registry.npmjs.org/side-channel-weakmap set size:12620 disposed:false
+580 silly placeDep ROOT queue-microtask@1.2.3 OK for: run-parallel@1.2.0 want: ^1.2.2
+581 silly placeDep ROOT es-errors@1.3.0 OK for: side-channel@1.1.0 want: ^1.3.0
+582 silly placeDep ROOT object-inspect@1.13.4 OK for: side-channel@1.1.0 want: ^1.13.3
+583 silly placeDep ROOT side-channel-list@1.0.0 OK for: side-channel@1.1.0 want: ^1.0.0
+584 silly placeDep ROOT side-channel-map@1.0.1 OK for: side-channel@1.1.0 want: ^1.0.1
+585 silly placeDep ROOT side-channel-weakmap@1.0.2 OK for: side-channel@1.1.0 want: ^1.0.2
+586 silly fetch manifest call-bound@^1.0.2
+587 silly packumentCache full:https://registry.npmjs.org/call-bound cache-miss
+588 silly fetch manifest get-intrinsic@^1.2.5
+589 silly packumentCache full:https://registry.npmjs.org/get-intrinsic cache-miss
+590 silly fetch manifest call-bound@^1.0.2
+591 silly packumentCache full:https://registry.npmjs.org/call-bound cache-miss
+592 silly fetch manifest get-intrinsic@^1.2.5
+593 silly packumentCache full:https://registry.npmjs.org/get-intrinsic cache-miss
+594 http fetch GET 200 https://registry.npmjs.org/call-bound 217ms (cache revalidated)
+595 silly packumentCache full:https://registry.npmjs.org/call-bound set size:15317 disposed:false
+596 http fetch GET 200 https://registry.npmjs.org/get-intrinsic 237ms (cache revalidated)
+597 silly packumentCache full:https://registry.npmjs.org/get-intrinsic set size:60985 disposed:false
+598 http fetch GET 200 https://registry.npmjs.org/get-intrinsic 255ms (cache revalidated)
+599 silly packumentCache full:https://registry.npmjs.org/get-intrinsic set size:60985 disposed:false
+600 silly packumentCache full:https://registry.npmjs.org/get-intrinsic dispose
+601 http fetch GET 200 https://registry.npmjs.org/call-bound 289ms (cache revalidated)
+602 silly packumentCache full:https://registry.npmjs.org/call-bound set size:15317 disposed:false
+603 silly packumentCache full:https://registry.npmjs.org/call-bound dispose
+604 silly placeDep ROOT call-bound@1.0.4 OK for: side-channel-map@1.0.1 want: ^1.0.2
+605 silly placeDep ROOT get-intrinsic@1.3.0 OK for: side-channel-map@1.0.1 want: ^1.2.5
+606 silly fetch manifest call-bind-apply-helpers@^1.0.2
+607 silly packumentCache full:https://registry.npmjs.org/call-bind-apply-helpers cache-miss
+608 silly fetch manifest get-intrinsic@^1.3.0
+609 silly packumentCache full:https://registry.npmjs.org/get-intrinsic cache-hit
+610 silly fetch manifest gopd@^1.2.0
+611 silly packumentCache full:https://registry.npmjs.org/gopd cache-miss
+612 silly fetch manifest get-proto@^1.0.1
+613 silly packumentCache full:https://registry.npmjs.org/get-proto cache-miss
+614 silly fetch manifest has-symbols@^1.1.0
+615 silly packumentCache full:https://registry.npmjs.org/has-symbols cache-miss
+616 silly fetch manifest es-object-atoms@^1.1.1
+617 silly packumentCache full:https://registry.npmjs.org/es-object-atoms cache-miss
+618 http fetch GET 200 https://registry.npmjs.org/gopd 204ms (cache revalidated)
+619 silly packumentCache full:https://registry.npmjs.org/gopd set size:11458 disposed:false
+620 silly fetch manifest math-intrinsics@^1.1.0
+621 silly packumentCache full:https://registry.npmjs.org/math-intrinsics cache-miss
+622 http fetch GET 200 https://registry.npmjs.org/call-bind-apply-helpers 260ms (cache revalidated)
+623 silly packumentCache full:https://registry.npmjs.org/call-bind-apply-helpers set size:12744 disposed:false
+624 silly fetch manifest es-define-property@^1.0.1
+625 silly packumentCache full:https://registry.npmjs.org/es-define-property cache-miss
+626 http fetch GET 200 https://registry.npmjs.org/es-object-atoms 301ms (cache revalidated)
+627 silly packumentCache full:https://registry.npmjs.org/es-object-atoms set size:15304 disposed:false
+628 http fetch GET 200 https://registry.npmjs.org/has-symbols 354ms (cache revalidated)
+629 silly packumentCache full:https://registry.npmjs.org/has-symbols set size:21550 disposed:false
+630 http fetch GET 200 https://registry.npmjs.org/math-intrinsics 221ms (cache revalidated)
+631 silly packumentCache full:https://registry.npmjs.org/math-intrinsics set size:9265 disposed:false
+632 http fetch GET 200 https://registry.npmjs.org/es-define-property 183ms (cache revalidated)
+633 silly packumentCache full:https://registry.npmjs.org/es-define-property set size:8542 disposed:false
+634 http fetch GET 200 https://registry.npmjs.org/get-proto 462ms (cache revalidated)
+635 silly packumentCache full:https://registry.npmjs.org/get-proto set size:8300 disposed:false
+636 silly placeDep ROOT call-bind-apply-helpers@1.0.2 OK for: call-bound@1.0.4 want: ^1.0.2
+637 silly placeDep ROOT es-define-property@1.0.1 OK for: get-intrinsic@1.3.0 want: ^1.0.1
+638 silly placeDep ROOT es-object-atoms@1.1.1 OK for: get-intrinsic@1.3.0 want: ^1.1.1
+639 silly placeDep ROOT get-proto@1.0.1 OK for: get-intrinsic@1.3.0 want: ^1.0.1
+640 silly placeDep ROOT gopd@1.2.0 OK for: get-intrinsic@1.3.0 want: ^1.2.0
+641 silly placeDep ROOT has-symbols@1.1.0 OK for: get-intrinsic@1.3.0 want: ^1.1.0
+642 silly placeDep ROOT math-intrinsics@1.1.0 OK for: get-intrinsic@1.3.0 want: ^1.1.0
+643 silly fetch manifest dunder-proto@^1.0.1
+644 silly packumentCache full:https://registry.npmjs.org/dunder-proto cache-miss
+645 http fetch GET 200 https://registry.npmjs.org/dunder-proto 210ms (cache revalidated)
+646 silly packumentCache full:https://registry.npmjs.org/dunder-proto set size:8256 disposed:false
+647 silly placeDep ROOT dunder-proto@1.0.1 OK for: get-proto@1.0.1 want: ^1.0.1
+648 silly placeDep ROOT astral-regex@1.0.0 OK for: slice-ansi@2.1.0 want: ^1.0.0
+649 silly placeDep node_modules/slice-ansi is-fullwidth-code-point@2.0.0 OK for: slice-ansi@2.1.0 want: ^2.0.0
+650 silly placeDep ROOT media-typer@0.3.0 OK for: type-is@1.6.18 want: 0.3.0
+651 silly placeDep node_modules/@react-native-community/cli-clean ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+652 silly placeDep node_modules/@react-native-community/cli-clean supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+653 silly fetch manifest color-convert@^2.0.1
+654 silly packumentCache full:https://registry.npmjs.org/color-convert cache-miss
+655 silly fetch manifest has-flag@^4.0.0
+656 silly packumentCache full:https://registry.npmjs.org/has-flag cache-miss
+657 http fetch GET 200 https://registry.npmjs.org/color-convert 190ms (cache revalidated)
+658 silly packumentCache full:https://registry.npmjs.org/color-convert set size:72663 disposed:false
+659 http fetch GET 200 https://registry.npmjs.org/has-flag 225ms (cache revalidated)
+660 silly packumentCache full:https://registry.npmjs.org/has-flag set size:15180 disposed:false
+661 silly placeDep node_modules/@react-native-community/cli-clean color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+662 silly fetch manifest color-name@~1.1.4
+663 silly packumentCache full:https://registry.npmjs.org/color-name cache-miss
+664 http fetch GET 200 https://registry.npmjs.org/color-name 374ms (cache revalidated)
+665 silly packumentCache full:https://registry.npmjs.org/color-name set size:19467 disposed:false
+666 silly placeDep node_modules/@react-native-community/cli-clean color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+667 silly placeDep node_modules/@react-native-community/cli-clean has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+668 silly placeDep node_modules/@react-native-community/cli-config-android ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+669 silly placeDep node_modules/@react-native-community/cli-config-android supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+670 silly placeDep node_modules/@react-native-community/cli-config-android color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+671 silly placeDep node_modules/@react-native-community/cli-config-android color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+672 silly placeDep node_modules/@react-native-community/cli-config-android has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+673 silly placeDep node_modules/@react-native-community/cli-config-apple ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+674 silly placeDep node_modules/@react-native-community/cli-config-apple supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+675 silly placeDep node_modules/@react-native-community/cli-config-apple color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+676 silly placeDep node_modules/@react-native-community/cli-config-apple color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+677 silly placeDep node_modules/@react-native-community/cli-config-apple has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+678 silly placeDep node_modules/@react-native-community/cli-config ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+679 silly placeDep node_modules/@react-native-community/cli-config supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+680 silly placeDep node_modules/@react-native-community/cli-config color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+681 silly placeDep node_modules/@react-native-community/cli-config color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+682 silly placeDep node_modules/@react-native-community/cli-config has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+683 silly placeDep node_modules/@react-native-community/cli-doctor ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+684 silly placeDep node_modules/@react-native-community/cli-doctor supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+685 silly placeDep node_modules/@react-native-community/cli-doctor color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+686 silly placeDep node_modules/@react-native-community/cli-doctor color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+687 silly placeDep ROOT bl@4.1.0 OK for: ora@5.4.1 want: ^4.1.0
+688 silly placeDep node_modules/@react-native-community/cli-doctor cli-cursor@3.1.0 OK for: ora@5.4.1 want: ^3.1.0
+689 silly placeDep ROOT is-interactive@1.0.0 OK for: ora@5.4.1 want: ^1.0.0
+690 silly placeDep ROOT is-unicode-supported@0.1.0 OK for: ora@5.4.1 want: ^0.1.0
+691 silly placeDep node_modules/@react-native-community/cli-doctor log-symbols@4.1.0 OK for: ora@5.4.1 want: ^4.1.0
+692 silly placeDep node_modules/@react-native-community/cli-doctor strip-ansi@6.0.1 OK for: ora@5.4.1 want: ^6.0.0
+693 silly fetch manifest readable-stream@^3.4.0
+694 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-miss
+695 silly fetch manifest restore-cursor@^3.1.0
+696 silly packumentCache full:https://registry.npmjs.org/restore-cursor cache-miss
+697 http fetch GET 200 https://registry.npmjs.org/readable-stream 176ms (cache revalidated)
+698 silly packumentCache full:https://registry.npmjs.org/readable-stream set size:261096 disposed:false
+699 http fetch GET 200 https://registry.npmjs.org/restore-cursor 265ms (cache revalidated)
+700 silly packumentCache full:https://registry.npmjs.org/restore-cursor set size:17895 disposed:false
+701 silly placeDep ROOT readable-stream@3.6.2 OK for: bl@4.1.0 want: ^3.4.0
+702 silly fetch manifest string_decoder@^1.1.1
+703 silly packumentCache full:https://registry.npmjs.org/string_decoder cache-miss
+704 silly fetch manifest util-deprecate@^1.0.1
+705 silly packumentCache full:https://registry.npmjs.org/util-deprecate cache-miss
+706 http fetch GET 200 https://registry.npmjs.org/util-deprecate 214ms (cache revalidated)
+707 silly packumentCache full:https://registry.npmjs.org/util-deprecate set size:6674 disposed:false
+708 http fetch GET 200 https://registry.npmjs.org/string_decoder 256ms (cache revalidated)
+709 silly packumentCache full:https://registry.npmjs.org/string_decoder set size:28441 disposed:false
+710 silly placeDep ROOT string_decoder@1.3.0 OK for: readable-stream@3.6.2 want: ^1.1.1
+711 silly placeDep ROOT util-deprecate@1.0.2 OK for: readable-stream@3.6.2 want: ^1.0.1
+712 silly placeDep node_modules/@react-native-community/cli-doctor restore-cursor@3.1.0 OK for: cli-cursor@3.1.0 want: ^3.1.0
+713 silly fetch manifest onetime@^5.1.0
+714 silly packumentCache full:https://registry.npmjs.org/onetime cache-hit
+715 silly fetch manifest signal-exit@^3.0.2
+716 silly packumentCache full:https://registry.npmjs.org/signal-exit cache-hit
+717 silly placeDep node_modules/@react-native-community/cli-doctor onetime@5.1.2 OK for: restore-cursor@3.1.0 want: ^5.1.0
+718 silly placeDep node_modules/@react-native-community/cli-doctor signal-exit@3.0.7 OK for: restore-cursor@3.1.0 want: ^3.0.2
+719 silly placeDep node_modules/@react-native-community/cli-doctor mimic-fn@2.1.0 OK for: onetime@5.1.2 want: ^2.1.0
+720 silly placeDep node_modules/@react-native-community/cli-doctor has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+721 silly placeDep node_modules/@react-native-community/cli-platform-android ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+722 silly placeDep node_modules/@react-native-community/cli-platform-android supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+723 silly placeDep node_modules/@react-native-community/cli-platform-android color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+724 silly placeDep node_modules/@react-native-community/cli-platform-android color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+725 silly placeDep node_modules/@react-native-community/cli-platform-android has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+726 silly placeDep node_modules/@react-native-community/cli-platform-apple ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+727 silly placeDep node_modules/@react-native-community/cli-platform-apple supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+728 silly placeDep node_modules/@react-native-community/cli-platform-apple color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+729 silly placeDep node_modules/@react-native-community/cli-platform-apple color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+730 silly placeDep node_modules/@react-native-community/cli-platform-apple has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+731 silly placeDep node_modules/@react-native-community/cli-server-api is-wsl@1.1.0 OK for: open@6.4.0 want: ^1.1.0
+732 silly placeDep node_modules/@react-native-community/cli-tools ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+733 silly placeDep node_modules/@react-native-community/cli-tools supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+734 silly placeDep node_modules/@react-native-community/cli-tools color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+735 silly placeDep node_modules/@react-native-community/cli-tools color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+736 silly placeDep node_modules/@react-native-community/cli-tools locate-path@6.0.0 OK for: find-up@5.0.0 want: ^6.0.0
+737 silly fetch manifest p-locate@^5.0.0
+738 silly packumentCache full:https://registry.npmjs.org/p-locate cache-miss
+739 http fetch GET 200 https://registry.npmjs.org/p-locate 180ms (cache revalidated)
+740 silly packumentCache full:https://registry.npmjs.org/p-locate set size:20789 disposed:false
+741 silly placeDep node_modules/@react-native-community/cli-tools p-locate@5.0.0 OK for: locate-path@6.0.0 want: ^5.0.0
+742 silly placeDep node_modules/@react-native-community/cli-tools cli-cursor@3.1.0 OK for: ora@5.4.1 want: ^3.1.0
+743 silly placeDep node_modules/@react-native-community/cli-tools log-symbols@4.1.0 OK for: ora@5.4.1 want: ^4.1.0
+744 silly placeDep node_modules/@react-native-community/cli-tools strip-ansi@6.0.1 OK for: ora@5.4.1 want: ^6.0.0
+745 silly placeDep node_modules/@react-native-community/cli-tools restore-cursor@3.1.0 OK for: cli-cursor@3.1.0 want: ^3.1.0
+746 silly placeDep node_modules/@react-native-community/cli-tools onetime@5.1.2 OK for: restore-cursor@3.1.0 want: ^5.1.0
+747 silly placeDep node_modules/@react-native-community/cli-tools signal-exit@3.0.7 OK for: restore-cursor@3.1.0 want: ^3.0.2
+748 silly placeDep node_modules/@react-native-community/cli-tools mimic-fn@2.1.0 OK for: onetime@5.1.2 want: ^2.1.0
+749 silly placeDep node_modules/@react-native-community/cli-tools has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+750 silly placeDep node_modules/@react-native-community/cli ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+751 silly placeDep node_modules/@react-native-community/cli supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+752 silly placeDep node_modules/@react-native-community/cli color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+753 silly placeDep node_modules/@react-native-community/cli color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+754 silly placeDep node_modules/@react-native-community/cli locate-path@6.0.0 OK for: find-up@5.0.0 want: ^6.0.0
+755 silly placeDep node_modules/@react-native-community/cli p-locate@5.0.0 OK for: locate-path@6.0.0 want: ^5.0.0
+756 silly placeDep node_modules/@react-native-community/cli has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+757 silly placeDep node_modules/ansi-fragments ansi-regex@4.1.1 OK for: strip-ansi@5.2.0 want: ^4.1.0
+758 silly placeDep node_modules/body-parser ms@2.0.0 OK for: debug@2.6.9 want: 2.0.0
+759 silly placeDep node_modules/cosmiconfig argparse@2.0.1 OK for: js-yaml@4.1.1 want: ^2.0.1
+760 silly placeDep node_modules/execa mimic-fn@2.1.0 OK for: onetime@5.1.2 want: ^2.1.0
+761 silly placeDep node_modules/logkitty cliui@6.0.0 OK for: yargs@15.4.1 want: ^6.0.0
+762 silly placeDep ROOT decamelize@1.2.0 OK for: yargs@15.4.1 want: ^1.2.0
+763 silly placeDep ROOT require-main-filename@2.0.0 OK for: yargs@15.4.1 want: ^2.0.0
+764 silly placeDep ROOT set-blocking@2.0.0 OK for: yargs@15.4.1 want: ^2.0.0
+765 silly placeDep node_modules/logkitty string-width@4.2.3 OK for: yargs@15.4.1 want: ^4.2.0
+766 silly placeDep ROOT which-module@2.0.1 OK for: yargs@15.4.1 want: ^2.0.0
+767 silly placeDep node_modules/logkitty y18n@4.0.3 OK for: yargs@15.4.1 want: ^4.0.0
+768 silly placeDep node_modules/logkitty yargs-parser@18.1.3 OK for: yargs@15.4.1 want: ^18.1.2
+769 silly fetch manifest wrap-ansi@^6.2.0
+770 silly packumentCache full:https://registry.npmjs.org/wrap-ansi cache-miss
+771 silly fetch manifest strip-ansi@^6.0.1
+772 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-hit
+773 silly fetch manifest emoji-regex@^8.0.0
+774 silly packumentCache full:https://registry.npmjs.org/emoji-regex cache-miss
+775 silly fetch manifest camelcase@^5.0.0
+776 silly packumentCache full:https://registry.npmjs.org/camelcase cache-miss
+777 http fetch GET 200 https://registry.npmjs.org/emoji-regex 288ms (cache revalidated)
+778 silly packumentCache full:https://registry.npmjs.org/emoji-regex set size:89088 disposed:false
+779 http fetch GET 200 https://registry.npmjs.org/wrap-ansi 324ms (cache revalidated)
+780 silly packumentCache full:https://registry.npmjs.org/wrap-ansi set size:51195 disposed:false
+781 http fetch GET 200 https://registry.npmjs.org/camelcase 327ms (cache revalidated)
+782 silly packumentCache full:https://registry.npmjs.org/camelcase set size:60255 disposed:false
+783 silly placeDep node_modules/logkitty strip-ansi@6.0.1 OK for: cliui@6.0.0 want: ^6.0.0
+784 silly placeDep node_modules/logkitty wrap-ansi@6.2.0 OK for: cliui@6.0.0 want: ^6.2.0
+785 silly fetch manifest ansi-styles@^4.0.0
+786 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-hit
+787 silly placeDep node_modules/logkitty emoji-regex@8.0.0 OK for: string-width@4.2.3 want: ^8.0.0
+788 silly placeDep node_modules/logkitty ansi-styles@4.3.0 OK for: wrap-ansi@6.2.0 want: ^4.0.0
+789 silly placeDep node_modules/logkitty color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+790 silly placeDep node_modules/logkitty color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+791 silly placeDep node_modules/logkitty camelcase@5.3.1 OK for: yargs-parser@18.1.3 want: ^5.0.0
+792 silly reify moves {}
+793 silly audit bulk request {
+793 silly audit   '@0no-co/graphql.web': [ '1.2.0' ],
+793 silly audit   '@babel/code-frame': [ '7.10.4', '7.27.1' ],
+793 silly audit   '@babel/compat-data': [ '7.28.5' ],
+793 silly audit   '@babel/core': [ '7.28.5' ],
+793 silly audit   semver: [ '6.3.1', '7.7.3' ],
+793 silly audit   '@babel/generator': [ '7.28.5' ],
+793 silly audit   '@babel/helper-annotate-as-pure': [ '7.27.3' ],
+793 silly audit   '@babel/helper-compilation-targets': [ '7.27.2' ],
+793 silly audit   '@babel/helper-create-class-features-plugin': [ '7.28.5' ],
+793 silly audit   '@babel/helper-create-regexp-features-plugin': [ '7.28.5' ],
+793 silly audit   '@babel/helper-define-polyfill-provider': [ '0.6.5' ],
+793 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+793 silly audit   '@babel/helper-member-expression-to-functions': [ '7.28.5' ],
+793 silly audit   '@babel/helper-module-imports': [ '7.27.1' ],
+793 silly audit   '@babel/helper-module-transforms': [ '7.28.3' ],
+793 silly audit   '@babel/helper-optimise-call-expression': [ '7.27.1' ],
+793 silly audit   '@babel/helper-plugin-utils': [ '7.27.1' ],
+793 silly audit   '@babel/helper-remap-async-to-generator': [ '7.27.1' ],
+793 silly audit   '@babel/helper-replace-supers': [ '7.27.1' ],
+793 silly audit   '@babel/helper-skip-transparent-expression-wrappers': [ '7.27.1' ],
+793 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+793 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+793 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+793 silly audit   '@babel/helper-wrap-function': [ '7.28.3' ],
+793 silly audit   '@babel/helpers': [ '7.28.4' ],
+793 silly audit   '@babel/highlight': [ '7.25.9' ],
+793 silly audit   '@babel/parser': [ '7.28.5' ],
+793 silly audit   '@babel/plugin-proposal-decorators': [ '7.28.0' ],
+793 silly audit   '@babel/plugin-proposal-export-default-from': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-syntax-async-generators': [ '7.8.4' ],
+793 silly audit   '@babel/plugin-syntax-bigint': [ '7.8.3' ],
+793 silly audit   '@babel/plugin-syntax-class-properties': [ '7.12.13' ],
+793 silly audit   '@babel/plugin-syntax-class-static-block': [ '7.14.5' ],
+793 silly audit   '@babel/plugin-syntax-decorators': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-syntax-dynamic-import': [ '7.8.3' ],
+793 silly audit   '@babel/plugin-syntax-export-default-from': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-syntax-flow': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-syntax-import-attributes': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-syntax-import-meta': [ '7.10.4' ],
+793 silly audit   '@babel/plugin-syntax-json-strings': [ '7.8.3' ],
+793 silly audit   '@babel/plugin-syntax-jsx': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-syntax-logical-assignment-operators': [ '7.10.4' ],
+793 silly audit   '@babel/plugin-syntax-nullish-coalescing-operator': [ '7.8.3' ],
+793 silly audit   '@babel/plugin-syntax-numeric-separator': [ '7.10.4' ],
+793 silly audit   '@babel/plugin-syntax-object-rest-spread': [ '7.8.3' ],
+793 silly audit   '@babel/plugin-syntax-optional-catch-binding': [ '7.8.3' ],
+793 silly audit   '@babel/plugin-syntax-optional-chaining': [ '7.8.3' ],
+793 silly audit   '@babel/plugin-syntax-private-property-in-object': [ '7.14.5' ],
+793 silly audit   '@babel/plugin-syntax-top-level-await': [ '7.14.5' ],
+793 silly audit   '@babel/plugin-syntax-typescript': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-arrow-functions': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-async-generator-functions': [ '7.28.0' ],
+793 silly audit   '@babel/plugin-transform-async-to-generator': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-block-scoping': [ '7.28.5' ],
+793 silly audit   '@babel/plugin-transform-class-properties': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-class-static-block': [ '7.28.3' ],
+793 silly audit   '@babel/plugin-transform-classes': [ '7.28.4' ],
+793 silly audit   '@babel/plugin-transform-computed-properties': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-destructuring': [ '7.28.5' ],
+793 silly audit   '@babel/plugin-transform-export-namespace-from': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-flow-strip-types': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-for-of': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-function-name': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-literals': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-logical-assignment-operators': [ '7.28.5' ],
+793 silly audit   '@babel/plugin-transform-modules-commonjs': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-named-capturing-groups-regex': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-nullish-coalescing-operator': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-numeric-separator': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-object-rest-spread': [ '7.28.4' ],
+793 silly audit   '@babel/plugin-transform-optional-catch-binding': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-optional-chaining': [ '7.28.5' ],
+793 silly audit   '@babel/plugin-transform-parameters': [ '7.27.7' ],
+793 silly audit   '@babel/plugin-transform-private-methods': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-private-property-in-object': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-react-display-name': [ '7.28.0' ],
+793 silly audit   '@babel/plugin-transform-react-jsx': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-react-jsx-development': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-react-pure-annotations': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-regenerator': [ '7.28.4' ],
+793 silly audit   '@babel/plugin-transform-runtime': [ '7.28.5' ],
+793 silly audit   '@babel/plugin-transform-shorthand-properties': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-spread': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-sticky-regex': [ '7.27.1' ],
+793 silly audit   '@babel/plugin-transform-typescript': [ '7.28.5' ],
+793 silly audit   '@babel/plugin-transform-unicode-regex': [ '7.27.1' ],
+793 silly audit   '@babel/preset-react': [ '7.28.5' ],
+793 silly audit   '@babel/preset-typescript': [ '7.28.5' ],
+793 silly audit   '@babel/runtime': [ '7.28.4' ],
+793 silly audit   '@babel/template': [ '7.27.2' ],
+793 silly audit   '@babel/traverse': [ '7.28.5' ],
+793 silly audit   '@babel/types': [ '7.28.5' ],
+793 silly audit   '@expo/code-signing-certificates': [ '0.0.5' ],
+793 silly audit   '@expo/config': [ '12.0.10' ],
+793 silly audit   '@expo/config-plugins': [ '54.0.2' ],
+793 silly audit   'ansi-styles': [ '4.3.0', '3.2.1', '5.2.0', '6.2.3' ],
+793 silly audit   chalk: [ '4.1.2', '2.4.2' ],
+793 silly audit   'color-convert': [ '2.0.1', '1.9.3' ],
+793 silly audit   'color-name': [ '1.1.4', '1.1.3' ],
+793 silly audit   'has-flag': [ '4.0.0', '3.0.0' ],
+793 silly audit   'supports-color': [ '7.2.0', '8.1.1', '5.5.0' ],
+793 silly audit   '@expo/config-types': [ '54.0.8' ],
+793 silly audit   '@expo/devcert': [ '1.2.0' ],
+793 silly audit   debug: [ '3.2.7', '2.6.9', '4.4.3' ],
+793 silly audit   '@expo/devtools': [ '0.1.7' ],
+793 silly audit   '@expo/env': [ '2.0.7' ],
+793 silly audit   '@expo/fingerprint': [ '0.15.3' ],
+793 silly audit   '@expo/image-utils': [ '0.8.7' ],
+793 silly audit   '@expo/json-file': [ '10.0.7' ],
+793 silly audit   '@expo/mcp-tunnel': [ '0.1.0' ],
+793 silly audit   ws: [ '8.18.3', '6.2.3', '7.5.10' ],
+793 silly audit   '@expo/metro': [ '54.1.0' ],
+793 silly audit   '@expo/osascript': [ '2.3.7' ],
+793 silly audit   '@expo/package-manager': [ '1.9.8' ],
+793 silly audit   '@expo/plist': [ '0.4.7' ],
+793 silly audit   '@expo/schema-utils': [ '0.1.7' ],
+793 silly audit   '@expo/sdk-runtime-versions': [ '1.0.0' ],
+793 silly audit   '@expo/spawn-async': [ '1.7.2' ],
+793 silly audit   '@expo/sudo-prompt': [ '9.3.2' ],
+793 silly audit   '@expo/ws-tunnel': [ '1.0.6' ],
+793 silly audit   '@expo/xcpretty': [ '4.3.2' ],
+793 silly audit   argparse: [ '2.0.1', '1.0.10' ],
+793 silly audit   'find-up': [ '5.0.0', '4.1.0' ],
+793 silly audit   'js-yaml': [ '4.1.1', '3.14.2' ],
+793 silly audit   'locate-path': [ '6.0.0', '5.0.0' ],
+793 silly audit   'p-locate': [ '5.0.0', '4.1.0' ],
+793 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+793 silly audit   '@isaacs/fs-minipass': [ '4.0.1' ],
+793 silly audit   '@isaacs/ttlcache': [ '1.4.1' ],
+793 silly audit   '@istanbuljs/load-nyc-config': [ '1.1.0' ],
+793 silly audit   camelcase: [ '5.3.1', '6.3.0' ],
+793 silly audit   '@istanbuljs/schema': [ '0.1.3' ],
+793 silly audit   '@jest/create-cache-key-function': [ '29.7.0' ],
+793 silly audit   '@jest/environment': [ '29.7.0' ],
+793 silly audit   '@jest/fake-timers': [ '29.7.0' ],
+793 silly audit   '@jest/schemas': [ '29.6.3' ],
+793 silly audit   '@jest/transform': [ '29.7.0' ],
+793 silly audit   '@jest/types': [ '29.6.3' ],
+793 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+793 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+793 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+793 silly audit   '@jridgewell/source-map': [ '0.3.11' ],
+793 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+793 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+793 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+793 silly audit   '@react-native/assets-registry': [ '0.81.5' ],
+793 silly audit   '@react-native/babel-plugin-codegen': [ '0.81.5' ],
+793 silly audit   '@react-native/babel-preset': [ '0.81.5' ],
+793 silly audit   '@react-native/codegen': [ '0.81.5' ],
+793 silly audit   'brace-expansion': [ '1.1.12', '2.0.2' ],
+793 silly audit   glob: [ '7.2.3', '10.5.0' ],
+793 silly audit   'hermes-estree': [ '0.29.1', '0.32.0' ],
+793 silly audit   'hermes-parser': [ '0.29.1', '0.32.0' ],
+793 silly audit   minimatch: [ '3.1.2', '9.0.5' ],
+793 silly audit   '@react-native/community-cli-plugin': [ '0.81.5' ],
+793 silly audit   '@react-native/debugger-frontend': [ '0.81.5' ],
+793 silly audit   '@react-native/dev-middleware': [ '0.81.5' ],
+793 silly audit   '@react-native/gradle-plugin': [ '0.81.5' ],
+793 silly audit   '@react-native/js-polyfills': [ '0.81.5' ],
+793 silly audit   '@react-native/normalize-colors': [ '0.81.5' ],
+793 silly audit   '@sinclair/typebox': [ '0.27.8' ],
+793 silly audit   '@sinonjs/commons': [ '3.0.1' ],
+793 silly audit   '@sinonjs/fake-timers': [ '10.3.0' ],
+793 silly audit   '@types/babel__core': [ '7.20.5' ],
+793 silly audit   '@types/babel__generator': [ '7.27.0' ],
+793 silly audit   '@types/babel__template': [ '7.4.4' ],
+793 silly audit   '@types/babel__traverse': [ '7.28.0' ],
+793 silly audit   '@types/graceful-fs': [ '4.1.9' ],
+793 silly audit   '@types/istanbul-lib-coverage': [ '2.0.6' ],
+793 silly audit   '@types/istanbul-lib-report': [ '3.0.3' ],
+793 silly audit   '@types/istanbul-reports': [ '3.0.4' ],
+793 silly audit   '@types/node': [ '24.10.1' ],
+793 silly audit   '@types/stack-utils': [ '2.0.3' ],
+793 silly audit   '@types/yargs': [ '17.0.35' ],
+793 silly audit   '@types/yargs-parser': [ '21.0.3' ],
+793 silly audit   '@ungap/structured-clone': [ '1.3.0' ],
+793 silly audit   '@urql/core': [ '5.2.0' ],
+793 silly audit   '@urql/exchange-retry': [ '1.3.2' ],
+793 silly audit   '@xmldom/xmldom': [ '0.8.11' ],
+793 silly audit   'abort-controller': [ '3.0.0' ],
+793 silly audit   accepts: [ '1.3.8' ],
+793 silly audit   acorn: [ '8.15.0' ],
+793 silly audit   'agent-base': [ '7.1.4' ],
+793 silly audit   anser: [ '1.4.10' ],
+793 silly audit   'ansi-escapes': [ '4.3.2' ],
+793 silly audit   'type-fest': [ '0.21.3', '0.7.1' ],
+793 silly audit   'ansi-regex': [ '5.0.1', '4.1.1', '6.2.2' ],
+793 silly audit   'any-promise': [ '1.3.0' ],
+793 silly audit   anymatch: [ '3.1.3' ],
+793 silly audit   arg: [ '5.0.2' ],
+793 silly audit   asap: [ '2.0.6' ],
+793 silly audit   'async-limiter': [ '1.0.1' ],
+793 silly audit   'babel-jest': [ '29.7.0' ],
+793 silly audit   'babel-plugin-istanbul': [ '6.1.1' ],
+793 silly audit   'babel-plugin-jest-hoist': [ '29.6.3' ],
+793 silly audit   'babel-plugin-polyfill-corejs2': [ '0.4.14' ],
+793 silly audit   'babel-plugin-polyfill-corejs3': [ '0.13.0' ],
+793 silly audit   'babel-plugin-polyfill-regenerator': [ '0.6.5' ],
+793 silly audit   'babel-plugin-react-compiler': [ '1.0.0' ],
+793 silly audit   'babel-plugin-react-native-web': [ '0.21.2' ],
+793 silly audit   'babel-plugin-syntax-hermes-parser': [ '0.29.1' ],
+793 silly audit   'babel-plugin-transform-flow-enums': [ '0.0.2' ],
+793 silly audit   'babel-preset-current-node-syntax': [ '1.2.0' ],
+793 silly audit   'babel-preset-jest': [ '29.6.3' ],
+793 silly audit   'balanced-match': [ '1.0.2' ],
+793 silly audit   'base64-js': [ '1.5.1' ],
+793 silly audit   'baseline-browser-mapping': [ '2.8.31' ],
+793 silly audit   'better-opn': [ '3.0.2' ],
+793 silly audit   open: [ '8.4.2', '7.4.2', '6.4.0' ],
+793 silly audit   'big-integer': [ '1.6.52' ],
+793 silly audit   'bplist-creator': [ '0.1.0' ],
+793 silly audit   'bplist-parser': [ '0.3.1' ],
+793 silly audit   braces: [ '3.0.3' ],
+793 silly audit   browserslist: [ '4.28.0' ],
+793 silly audit   bser: [ '2.1.1' ],
+793 silly audit   buffer: [ '5.7.1' ],
+793 silly audit   'buffer-from': [ '1.1.2' ],
+793 silly audit   bytes: [ '3.1.2' ],
+793 silly audit   'caniuse-lite': [ '1.0.30001757' ],
+793 silly audit   chownr: [ '3.0.0' ],
+793 silly audit   'chrome-launcher': [ '0.15.2' ],
+793 silly audit   'escape-string-regexp': [ '4.0.0', '1.0.5', '2.0.0' ],
+793 silly audit   'chromium-edge-launcher': [ '0.2.0' ],
+793 silly audit   'ci-info': [ '2.0.0', '3.9.0' ],
+793 silly audit   'cli-cursor': [ '2.1.0', '3.1.0' ],
+793 silly audit   'cli-spinners': [ '2.9.2' ],
+793 silly audit   cliui: [ '8.0.1', '6.0.0' ],
+793 silly audit   'emoji-regex': [ '8.0.0', '9.2.2' ],
+793 silly audit   'string-width': [ '4.2.3', '5.1.2' ],
+793 silly audit   'strip-ansi': [ '6.0.1', '5.2.0', '7.1.2' ],
+793 silly audit   'wrap-ansi': [ '7.0.0', '8.1.0', '6.2.0' ],
+793 silly audit   clone: [ '1.0.4' ],
+793 silly audit   commander: [ '7.2.0', '12.1.0', '4.1.1', '2.20.3', '9.5.0' ],
+793 silly audit   compressible: [ '2.0.18' ],
+793 silly audit   compression: [ '1.8.1' ],
+793 silly audit   ms: [ '2.0.0', '2.1.3' ],
+793 silly audit   negotiator: [ '0.6.4', '0.6.3' ],
+793 silly audit   'concat-map': [ '0.0.1' ],
+793 silly audit   connect: [ '3.7.0' ],
+793 silly audit   'convert-source-map': [ '2.0.0' ],
+793 silly audit   'core-js-compat': [ '3.47.0' ],
+793 silly audit   'cross-spawn': [ '7.0.6' ],
+793 silly audit   'crypto-random-string': [ '2.0.0' ],
+793 silly audit   'deep-extend': [ '0.6.0' ],
+793 silly audit   deepmerge: [ '4.3.1' ],
+793 silly audit   defaults: [ '1.0.4' ],
+793 silly audit   'define-lazy-prop': [ '2.0.0' ],
+793 silly audit   depd: [ '2.0.0' ],
+793 silly audit   destroy: [ '1.2.0' ],
+793 silly audit   'detect-libc': [ '2.1.2' ],
+793 silly audit   dotenv: [ '16.4.7' ],
+793 silly audit   'dotenv-expand': [ '11.0.7' ],
+793 silly audit   eastasianwidth: [ '0.2.0' ],
+793 silly audit   'ee-first': [ '1.1.1' ],
+793 silly audit   'electron-to-chromium': [ '1.5.259' ],
+793 silly audit   encodeurl: [ '1.0.2', '2.0.0' ],
+793 silly audit   'env-editor': [ '0.4.2' ],
+793 silly audit   'error-stack-parser': [ '2.1.4' ],
+793 silly audit   escalade: [ '3.2.0' ],
+793 silly audit   'escape-html': [ '1.0.3' ],
+793 silly audit   esprima: [ '4.0.1' ],
+793 silly audit   etag: [ '1.8.1' ],
+793 silly audit   'event-target-shim': [ '5.0.1' ],
+793 silly audit   'exec-async': [ '2.2.0' ],
+793 silly audit   expo: [ '54.0.25' ],
+793 silly audit   'expo-modules-autolinking': [ '3.0.22' ],
+793 silly audit   'expo-modules-core': [ '3.0.26' ],
+793 silly audit   'expo-server': [ '1.0.4' ],
+793 silly audit   'expo-status-bar': [ '3.0.8' ],
+793 silly audit   '@expo/cli': [ '54.0.16' ],
+793 silly audit   '@expo/prebuild-config': [ '54.0.6' ],
+793 silly audit   '@expo/metro-config': [ '54.0.9' ],
+793 silly audit   '@expo/vector-icons': [ '15.0.3' ],
+793 silly audit   'babel-preset-expo': [ '54.0.7' ],
+793 silly audit   'expo-asset': [ '12.0.10' ],
+793 silly audit   'expo-constants': [ '18.0.10' ],
+793 silly audit   'expo-file-system': [ '19.0.19' ],
+793 silly audit   'expo-font': [ '14.0.9' ],
+793 silly audit   'expo-keep-awake': [ '15.0.7' ],
+793 silly audit   picomatch: [ '3.0.1', '2.3.1' ],
+793 silly audit   'exponential-backoff': [ '3.1.3' ],
+793 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+793 silly audit   'fb-watchman': [ '2.0.2' ],
+793 silly audit   'fill-range': [ '7.1.1' ],
+793 silly audit   finalhandler: [ '1.1.2' ],
+793 silly audit   'flow-enums-runtime': [ '0.0.6' ],
+793 silly audit   fontfaceobserver: [ '2.3.0' ],
+793 silly audit   'foreground-child': [ '3.3.1' ],
+793 silly audit   'freeport-async': [ '2.0.0' ],
+793 silly audit   fresh: [ '0.5.2' ],
+793 silly audit   'fs.realpath': [ '1.0.0' ],
+793 silly audit   fsevents: [ '2.3.3' ],
+793 silly audit   'function-bind': [ '1.1.2' ],
+793 silly audit   gensync: [ '1.0.0-beta.2' ],
+793 silly audit   'get-caller-file': [ '2.0.5' ],
+793 silly audit   'get-package-type': [ '0.1.0' ],
+793 silly audit   getenv: [ '2.0.0' ],
+793 silly audit   'global-dirs': [ '0.1.1' ],
+793 silly audit   'graceful-fs': [ '4.2.11' ],
+793 silly audit   hasown: [ '2.0.2' ],
+793 silly audit   'hosted-git-info': [ '7.0.2' ],
+793 silly audit   'lru-cache': [ '10.4.3', '5.1.1' ],
+793 silly audit   'http-errors': [ '2.0.0' ],
+793 silly audit   statuses: [ '2.0.1', '1.5.0' ],
+793 silly audit   'https-proxy-agent': [ '7.0.6' ],
+793 silly audit   ieee754: [ '1.2.1' ],
+793 silly audit   ignore: [ '5.3.2' ],
+793 silly audit   'image-size': [ '1.2.1' ],
+793 silly audit   imurmurhash: [ '0.1.4' ],
+793 silly audit   inflight: [ '1.0.6' ],
+793 silly audit   inherits: [ '2.0.4' ],
+793 silly audit   ini: [ '1.3.8' ],
+793 silly audit   invariant: [ '2.2.4' ],
+793 silly audit   'is-core-module': [ '2.16.1' ],
+793 silly audit   'is-docker': [ '2.2.1' ],
+793 silly audit   'is-fullwidth-code-point': [ '3.0.0', '2.0.0' ],
+793 silly audit   'is-number': [ '7.0.0' ],
+793 silly audit   'is-wsl': [ '2.2.0', '1.1.0' ],
+793 silly audit   isexe: [ '2.0.0' ],
+793 silly audit   'istanbul-lib-coverage': [ '3.2.2' ],
+793 silly audit   'istanbul-lib-instrument': [ '5.2.1' ],
+793 silly audit   jackspeak: [ '3.4.3' ],
+793 silly audit   'jest-environment-node': [ '29.7.0' ],
+793 silly audit   'jest-get-type': [ '29.6.3' ],
+793 silly audit   'jest-haste-map': [ '29.7.0' ],
+793 silly audit   'jest-message-util': [ '29.7.0' ],
+793 silly audit   'jest-mock': [ '29.7.0' ],
+793 silly audit   'jest-regex-util': [ '29.6.3' ],
+793 silly audit   'jest-util': [ '29.7.0' ],
+793 silly audit   'jest-validate': [ '29.7.0' ],
+793 silly audit   'jest-worker': [ '29.7.0' ],
+793 silly audit   'jimp-compact': [ '0.16.1' ],
+793 silly audit   'js-tokens': [ '4.0.0' ],
+793 silly audit   'jsc-safe-url': [ '0.2.4' ],
+793 silly audit   jsesc: [ '3.1.0' ],
+793 silly audit   json5: [ '2.2.3' ],
+793 silly audit   kleur: [ '3.0.3' ],
+793 silly audit   'lan-network': [ '0.1.7' ],
+793 silly audit   leven: [ '3.1.0' ],
+793 silly audit   'lighthouse-logger': [ '1.4.2' ],
+793 silly audit   lightningcss: [ '1.30.2' ],
+793 silly audit   'lightningcss-android-arm64': [ '1.30.2' ],
+793 silly audit   'lightningcss-darwin-arm64': [ '1.30.2' ],
+793 silly audit   'lightningcss-darwin-x64': [ '1.30.2' ],
+793 silly audit   'lightningcss-freebsd-x64': [ '1.30.2' ],
+793 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.2' ],
+793 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.2' ],
+793 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.2' ],
+793 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.2' ],
+793 silly audit   'lightningcss-linux-x64-musl': [ '1.30.2' ],
+793 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.2' ],
+793 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.2' ],
+793 silly audit   'lines-and-columns': [ '1.2.4' ],
+793 silly audit   'lodash.debounce': [ '4.0.8' ],
+793 silly audit   'lodash.throttle': [ '4.1.1' ],
+793 silly audit   'log-symbols': [ '2.2.0', '4.1.0' ],
+793 silly audit   'loose-envify': [ '1.4.0' ],
+793 silly audit   makeerror: [ '1.0.12' ],
+793 silly audit   marky: [ '1.3.0' ],
+793 silly audit   'memoize-one': [ '5.2.1' ],
+793 silly audit   'merge-stream': [ '2.0.0' ],
+793 silly audit   metro: [ '0.83.2' ],
+793 silly audit   'metro-babel-transformer': [ '0.83.2' ],
+793 silly audit   'metro-cache': [ '0.83.2' ],
+793 silly audit   'metro-cache-key': [ '0.83.2' ],
+793 silly audit   'metro-config': [ '0.83.2' ],
+793 silly audit   'metro-core': [ '0.83.2' ],
+793 silly audit   'metro-file-map': [ '0.83.2' ],
+793 silly audit   'metro-minify-terser': [ '0.83.2' ],
+793 silly audit   'metro-resolver': [ '0.83.2' ],
+793 silly audit   'metro-runtime': [ '0.83.2' ],
+793 silly audit   'metro-source-map': [ '0.83.2' ],
+793 silly audit   'metro-symbolicate': [ '0.83.2' ],
+793 silly audit   'metro-transform-plugins': [ '0.83.2' ],
+793 silly audit   'metro-transform-worker': [ '0.83.2' ],
+793 silly audit   micromatch: [ '4.0.8' ],
+793 silly audit   mime: [ '1.6.0', '2.6.0' ],
+793 silly audit   'mime-db': [ '1.52.0' ],
+793 silly audit   'mime-types': [ '2.1.35' ],
+793 silly audit   'mimic-fn': [ '1.2.0', '2.1.0' ],
+793 silly audit   minimist: [ '1.2.8' ],
+793 silly audit   minipass: [ '7.1.2' ],
+793 silly audit   minizlib: [ '3.1.0' ],
+793 silly audit   mkdirp: [ '1.0.4' ],
+793 silly audit   mz: [ '2.7.0' ],
+793 silly audit   nanoid: [ '3.3.11' ],
+793 silly audit   'nested-error-stacks': [ '2.0.1' ],
+793 silly audit   'node-forge': [ '1.3.1' ],
+793 silly audit   'node-int64': [ '0.4.0' ],
+793 silly audit   'node-releases': [ '2.0.27' ],
+793 silly audit   'normalize-path': [ '3.0.0' ],
+793 silly audit   'npm-package-arg': [ '11.0.3' ],
+793 silly audit   nullthrows: [ '1.1.1' ],
+793 silly audit   ob1: [ '0.83.2' ],
+793 silly audit   'object-assign': [ '4.1.1' ],
+793 silly audit   'on-finished': [ '2.3.0', '2.4.1' ],
+793 silly audit   'on-headers': [ '1.1.0' ],
+793 silly audit   once: [ '1.4.0' ],
+793 silly audit   onetime: [ '2.0.1', '5.1.2' ],
+793 silly audit   ora: [ '3.4.0', '5.4.1' ],
+793 silly audit   'p-limit': [ '3.1.0', '2.3.0' ],
+793 silly audit   'p-try': [ '2.2.0' ],
+793 silly audit   'package-json-from-dist': [ '1.0.1' ],
+793 silly audit   'parse-png': [ '2.1.0' ],
+793 silly audit   parseurl: [ '1.3.3' ],
+793 silly audit   'path-exists': [ '4.0.0' ],
+793 silly audit   'path-is-absolute': [ '1.0.1' ],
+793 silly audit   'path-key': [ '3.1.1' ],
+793 silly audit   'path-parse': [ '1.0.7' ],
+793 silly audit   'path-scurry': [ '1.11.1' ],
+793 silly audit   picocolors: [ '1.1.1' ],
+793 silly audit   pirates: [ '4.0.7' ],
+793 silly audit   plist: [ '3.1.0' ],
+793 silly audit   pngjs: [ '3.4.0' ],
+793 silly audit   postcss: [ '8.4.49' ],
+793 silly audit   'pretty-bytes': [ '5.6.0' ],
+793 silly audit   'pretty-format': [ '29.7.0' ],
+793 silly audit   'proc-log': [ '4.2.0' ],
+793 silly audit   progress: [ '2.0.3' ],
+793 silly audit   promise: [ '8.3.0' ],
+793 silly audit   prompts: [ '2.4.2' ],
+793 silly audit   punycode: [ '2.3.1' ],
+793 silly audit   'qrcode-terminal': [ '0.11.0' ],
+793 silly audit   queue: [ '6.0.2' ],
+793 silly audit   'range-parser': [ '1.2.1' ],
+793 silly audit   rc: [ '1.2.8' ],
+793 silly audit   react: [ '19.1.0' ],
+793 silly audit   'react-devtools-core': [ '6.1.5' ],
+793 silly audit   'react-is': [ '18.3.1' ],
+793 silly audit   'react-native': [ '0.81.5' ],
+793 silly audit   'react-native-is-edge-to-edge': [ '1.2.1' ],
+793 silly audit   '@react-native/virtualized-lists': [ '0.81.5' ],
+793 silly audit   'react-refresh': [ '0.14.2' ],
+793 silly audit   regenerate: [ '1.4.2' ],
+793 silly audit   'regenerate-unicode-properties': [ '10.2.2' ],
+793 silly audit   'regenerator-runtime': [ '0.13.11' ],
+793 silly audit   'regexpu-core': [ '6.4.0' ],
+793 silly audit   regjsgen: [ '0.8.0' ],
+793 silly audit   regjsparser: [ '0.13.0' ],
+793 silly audit   'require-directory': [ '2.1.1' ],
+793 silly audit   'require-from-string': [ '2.0.2' ],
+793 silly audit   requireg: [ '0.2.2' ],
+793 silly audit   resolve: [ '1.7.1', '1.22.11' ],
+793 silly audit   'resolve-from': [ '5.0.0', '4.0.0' ],
+793 silly audit   'resolve-global': [ '1.0.0' ],
+793 silly audit   'resolve-workspace-root': [ '2.0.0' ],
+793 silly audit   'resolve.exports': [ '2.0.3' ],
+793 silly audit   'restore-cursor': [ '2.0.0', '3.1.0' ],
+793 silly audit   'signal-exit': [ '3.0.7', '4.1.0' ],
+793 silly audit   rimraf: [ '3.0.2' ],
+793 silly audit   'safe-buffer': [ '5.2.1' ],
+793 silly audit   sax: [ '1.4.3' ],
+793 silly audit   scheduler: [ '0.26.0' ],
+793 silly audit   send: [ '0.19.0' ],
+793 silly audit   'serialize-error': [ '2.1.0' ],
+793 silly audit   'serve-static': [ '1.16.2' ],
+793 silly audit   setprototypeof: [ '1.2.0' ],
+793 silly audit   'shebang-command': [ '2.0.0' ],
+793 silly audit   'shebang-regex': [ '3.0.0' ],
+793 silly audit   'shell-quote': [ '1.8.3' ],
+793 silly audit   'simple-plist': [ '1.3.1' ],
+793 silly audit   sisteransi: [ '1.0.5' ],
+793 silly audit   slash: [ '3.0.0' ],
+793 silly audit   slugify: [ '1.6.6' ],
+793 silly audit   'source-map': [ '0.5.7', '0.6.1' ],
+793 silly audit   'source-map-js': [ '1.2.1' ],
+793 silly audit   'source-map-support': [ '0.5.21' ],
+793 silly audit   'sprintf-js': [ '1.0.3' ],
+793 silly audit   'stack-utils': [ '2.0.6' ],
+793 silly audit   stackframe: [ '1.3.4' ],
+793 silly audit   'stacktrace-parser': [ '0.1.11' ],
+793 silly audit   'stream-buffers': [ '2.2.0' ],
+793 silly audit   'strip-json-comments': [ '2.0.1' ],
+793 silly audit   'structured-headers': [ '0.4.1' ],
+793 silly audit   sucrase: [ '3.35.0' ],
+793 silly audit   'supports-hyperlinks': [ '2.3.0' ],
+793 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+793 silly audit   tar: [ '7.5.2' ],
+793 silly audit   yallist: [ '5.0.0', '3.1.1' ],
+793 silly audit   'temp-dir': [ '2.0.0' ],
+793 silly audit   'terminal-link': [ '2.1.1' ],
+793 silly audit   terser: [ '5.44.1' ],
+793 silly audit   'test-exclude': [ '6.0.0' ],
+793 silly audit   thenify: [ '3.3.1' ],
+793 silly audit   'thenify-all': [ '1.6.0' ],
+793 silly audit   throat: [ '5.0.0' ],
+793 silly audit   tmpl: [ '1.0.5' ],
+793 silly audit   'to-regex-range': [ '5.0.1' ],
+793 silly audit   toidentifier: [ '1.0.1' ],
+793 silly audit   'ts-interface-checker': [ '0.1.13' ],
+793 silly audit   'type-detect': [ '4.0.8' ],
+793 silly audit   undici: [ '6.22.0' ],
+793 silly audit   'undici-types': [ '7.16.0' ],
+793 silly audit   'unicode-canonical-property-names-ecmascript': [ '2.0.1' ],
+793 silly audit   'unicode-match-property-ecmascript': [ '2.0.0' ],
+793 silly audit   'unicode-match-property-value-ecmascript': [ '2.2.1' ],
+793 silly audit   'unicode-property-aliases-ecmascript': [ '2.2.0' ],
+793 silly audit   'unique-string': [ '2.0.0' ],
+793 silly audit   unpipe: [ '1.0.0' ],
+793 silly audit   'update-browserslist-db': [ '1.1.4' ],
+793 silly audit   'utils-merge': [ '1.0.1' ],
+793 silly audit   uuid: [ '7.0.3' ],
+793 silly audit   'validate-npm-package-name': [ '5.0.1' ],
+793 silly audit   vary: [ '1.1.2' ],
+793 silly audit   vlq: [ '1.0.1' ],
+793 silly audit   walker: [ '1.0.8' ],
+793 silly audit   wcwidth: [ '1.0.1' ],
+793 silly audit   'webidl-conversions': [ '5.0.0' ],
+793 silly audit   'whatwg-fetch': [ '3.6.20' ],
+793 silly audit   'whatwg-url-without-unicode': [ '8.0.0-3' ],
+793 silly audit   which: [ '2.0.2' ],
+793 silly audit   wonka: [ '6.3.5' ],
+793 silly audit   wrappy: [ '1.0.2' ],
+793 silly audit   'write-file-atomic': [ '4.0.2' ],
+793 silly audit   xcode: [ '3.0.1' ],
+793 silly audit   xml2js: [ '0.6.0' ],
+793 silly audit   xmlbuilder: [ '11.0.1', '15.1.1' ],
+793 silly audit   y18n: [ '5.0.8', '4.0.3' ],
+793 silly audit   yaml: [ '2.8.1' ],
+793 silly audit   yargs: [ '17.7.2', '15.4.1' ],
+793 silly audit   'yargs-parser': [ '21.1.1', '18.1.3' ],
+793 silly audit   'yocto-queue': [ '0.1.0' ],
+793 silly audit   zod: [ '3.25.76' ],
+793 silly audit   'zod-to-json-schema': [ '3.25.0' ],
+793 silly audit   '@react-native-community/cli': [ '20.0.2' ],
+793 silly audit   '@react-native-community/cli-clean': [ '20.0.2' ],
+793 silly audit   '@react-native-community/cli-config': [ '20.0.2' ],
+793 silly audit   '@react-native-community/cli-doctor': [ '20.0.2' ],
+793 silly audit   '@react-native-community/cli-server-api': [ '20.0.2' ],
+793 silly audit   '@react-native-community/cli-tools': [ '20.0.2' ],
+793 silly audit   '@react-native-community/cli-types': [ '20.0.2' ],
+793 silly audit   execa: [ '5.1.1' ],
+793 silly audit   'fs-extra': [ '8.1.0' ],
+793 silly audit   'fast-glob': [ '3.3.3' ],
+793 silly audit   cosmiconfig: [ '9.0.0' ],
+793 silly audit   joi: [ '17.13.3' ],
+793 silly audit   '@react-native-community/cli-platform-android': [ '20.0.2' ],
+793 silly audit   '@react-native-community/cli-platform-apple': [ '20.0.2' ],
+793 silly audit   '@react-native-community/cli-platform-ios': [ '20.0.2' ],
+793 silly audit   'command-exists': [ '1.2.9' ],
+793 silly audit   envinfo: [ '7.20.0' ],
+793 silly audit   'node-stream-zip': [ '1.15.0' ],
+793 silly audit   '@react-native-community/cli-config-android': [ '20.0.2' ],
+793 silly audit   logkitty: [ '0.7.1' ],
+793 silly audit   'fast-xml-parser': [ '4.5.3' ],
+793 silly audit   '@react-native-community/cli-config-apple': [ '20.0.2' ],
+793 silly audit   'body-parser': [ '1.20.3' ],
+793 silly audit   errorhandler: [ '1.5.1' ],
+793 silly audit   nocache: [ '3.0.4' ],
+793 silly audit   '@vscode/sudo-prompt': [ '9.3.1' ],
+793 silly audit   appdirsjs: [ '1.2.7' ],
+793 silly audit   'launch-editor': [ '2.12.0' ],
+793 silly audit   'content-type': [ '1.0.5' ],
+793 silly audit   'iconv-lite': [ '0.4.24' ],
+793 silly audit   qs: [ '6.13.0' ],
+793 silly audit   'raw-body': [ '2.5.2' ],
+793 silly audit   'type-is': [ '1.6.18' ],
+793 silly audit   'env-paths': [ '2.2.1' ],
+793 silly audit   'import-fresh': [ '3.3.1' ],
+793 silly audit   'parse-json': [ '5.2.0' ],
+793 silly audit   'get-stream': [ '6.0.1' ],
+793 silly audit   'human-signals': [ '2.1.0' ],
+793 silly audit   'is-stream': [ '2.0.1' ],
+793 silly audit   'npm-run-path': [ '4.0.1' ],
+793 silly audit   'strip-final-newline': [ '2.0.0' ],
+793 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+793 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+793 silly audit   'glob-parent': [ '5.1.2' ],
+793 silly audit   merge2: [ '1.4.1' ],
+793 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+793 silly audit   fastq: [ '1.19.1' ],
+793 silly audit   'run-parallel': [ '1.2.0' ],
+793 silly audit   strnum: [ '1.1.2' ],
+793 silly audit   reusify: [ '1.1.0' ],
+793 silly audit   jsonfile: [ '4.0.0' ],
+793 silly audit   universalify: [ '0.1.2' ],
+793 silly audit   'is-glob': [ '4.0.3' ],
+793 silly audit   'safer-buffer': [ '2.1.2' ],
+793 silly audit   'parent-module': [ '1.0.1' ],
+793 silly audit   'is-extglob': [ '2.1.1' ],
+793 silly audit   '@hapi/hoek': [ '9.3.0' ],
+793 silly audit   '@hapi/topo': [ '5.1.0' ],
+793 silly audit   '@sideway/address': [ '4.1.5' ],
+793 silly audit   '@sideway/formula': [ '3.0.1' ],
+793 silly audit   '@sideway/pinpoint': [ '2.0.0' ],
+793 silly audit   'ansi-fragments': [ '0.2.1' ],
+793 silly audit   dayjs: [ '1.11.19' ],
+793 silly audit   colorette: [ '1.4.0' ],
+793 silly audit   'slice-ansi': [ '2.1.0' ],
+793 silly audit   callsites: [ '3.1.0' ],
+793 silly audit   'error-ex': [ '1.3.4' ],
+793 silly audit   'json-parse-even-better-errors': [ '2.3.1' ],
+793 silly audit   'is-arrayish': [ '0.2.1' ],
+793 silly audit   'side-channel': [ '1.1.0' ],
+793 silly audit   'queue-microtask': [ '1.2.3' ],
+793 silly audit   'es-errors': [ '1.3.0' ],
+793 silly audit   'object-inspect': [ '1.13.4' ],
+793 silly audit   'side-channel-list': [ '1.0.0' ],
+793 silly audit   'side-channel-map': [ '1.0.1' ],
+793 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+793 silly audit   'call-bound': [ '1.0.4' ],
+793 silly audit   'get-intrinsic': [ '1.3.0' ],
+793 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+793 silly audit   'es-define-property': [ '1.0.1' ],
+793 silly audit   'es-object-atoms': [ '1.1.1' ],
+793 silly audit   'get-proto': [ '1.0.1' ],
+793 silly audit   gopd: [ '1.2.0' ],
+793 silly audit   'has-symbols': [ '1.1.0' ],
+793 silly audit   'math-intrinsics': [ '1.1.0' ],
+793 silly audit   'dunder-proto': [ '1.0.1' ],
+793 silly audit   'astral-regex': [ '1.0.0' ],
+793 silly audit   'media-typer': [ '0.3.0' ],
+793 silly audit   bl: [ '4.1.0' ],
+793 silly audit   'is-interactive': [ '1.0.0' ],
+793 silly audit   'is-unicode-supported': [ '0.1.0' ],
+793 silly audit   'readable-stream': [ '3.6.2' ],
+793 silly audit   string_decoder: [ '1.3.0' ],
+793 silly audit   'util-deprecate': [ '1.0.2' ],
+793 silly audit   decamelize: [ '1.2.0' ],
+793 silly audit   'require-main-filename': [ '2.0.0' ],
+793 silly audit   'set-blocking': [ '2.0.0' ],
+793 silly audit   'which-module': [ '2.0.1' ]
+793 silly audit }
+794 verbose reify failed optional dependency /data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-win32-x64-msvc
+795 silly reify mark deleted [
+795 silly reify   '/data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-win32-x64-msvc'
+795 silly reify ]
+796 verbose reify failed optional dependency /data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-win32-arm64-msvc
+797 silly reify mark deleted [
+797 silly reify   '/data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-win32-arm64-msvc'
+797 silly reify ]
+798 verbose reify failed optional dependency /data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-linux-x64-musl
+799 silly reify mark deleted [
+799 silly reify   '/data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-linux-x64-musl'
+799 silly reify ]
+800 verbose reify failed optional dependency /data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-linux-x64-gnu
+801 silly reify mark deleted [
+801 silly reify   '/data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-linux-x64-gnu'
+801 silly reify ]
+802 verbose reify failed optional dependency /data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-linux-arm64-musl
+803 silly reify mark deleted [
+803 silly reify   '/data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-linux-arm64-musl'
+803 silly reify ]
+804 verbose reify failed optional dependency /data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-linux-arm64-gnu
+805 silly reify mark deleted [
+805 silly reify   '/data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-linux-arm64-gnu'
+805 silly reify ]
+806 verbose reify failed optional dependency /data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-linux-arm-gnueabihf
+807 silly reify mark deleted [
+807 silly reify   '/data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-linux-arm-gnueabihf'
+807 silly reify ]
+808 verbose reify failed optional dependency /data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-freebsd-x64
+809 silly reify mark deleted [
+809 silly reify   '/data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-freebsd-x64'
+809 silly reify ]
+810 verbose reify failed optional dependency /data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-darwin-x64
+811 silly reify mark deleted [
+811 silly reify   '/data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-darwin-x64'
+811 silly reify ]
+812 verbose reify failed optional dependency /data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-darwin-arm64
+813 silly reify mark deleted [
+813 silly reify   '/data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/lightningcss-darwin-arm64'
+813 silly reify ]
+814 verbose reify failed optional dependency /data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/fsevents
+815 silly reify mark deleted [
+815 silly reify   '/data/data/com.termux/files/home/deo-project/DEO-Nouveau/node_modules/fsevents'
+815 silly reify ]
+816 http cache which-module@https://registry.npmjs.org/which-module/-/which-module-2.0.1.tgz 0ms (cache hit)
+817 http cache set-blocking@https://registry.npmjs.org/set-blocking/-/set-blocking-2.0.0.tgz 0ms (cache hit)
+818 http cache require-main-filename@https://registry.npmjs.org/require-main-filename/-/require-main-filename-2.0.0.tgz 0ms (cache hit)
+819 http cache decamelize@https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz 0ms (cache hit)
+820 http cache util-deprecate@https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 0ms (cache hit)
+821 http cache string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz 0ms (cache hit)
+822 http cache readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz 0ms (cache hit)
+823 http cache is-unicode-supported@https://registry.npmjs.org/is-unicode-supported/-/is-unicode-supported-0.1.0.tgz 0ms (cache hit)
+824 http cache bl@https://registry.npmjs.org/bl/-/bl-4.1.0.tgz 0ms (cache hit)
+825 http cache is-interactive@https://registry.npmjs.org/is-interactive/-/is-interactive-1.0.0.tgz 0ms (cache hit)
+826 http cache media-typer@https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz 0ms (cache hit)
+827 http cache astral-regex@https://registry.npmjs.org/astral-regex/-/astral-regex-1.0.0.tgz 0ms (cache hit)
+828 http cache dunder-proto@https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz 0ms (cache hit)
+829 http cache math-intrinsics@https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz 0ms (cache hit)
+830 http cache has-symbols@https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz 0ms (cache hit)
+831 http cache gopd@https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz 0ms (cache hit)
+832 http cache es-object-atoms@https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz 1ms (cache hit)
+833 http cache get-proto@https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz 0ms (cache hit)
+834 http cache es-define-property@https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz 0ms (cache hit)
+835 http cache call-bind-apply-helpers@https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 0ms (cache hit)
+836 http cache get-intrinsic@https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz 0ms (cache hit)
+837 http cache call-bound@https://registry.npmjs.org/call-bound/-/call-bound-1.0.4.tgz 0ms (cache hit)
+838 http cache side-channel-weakmap@https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz 0ms (cache hit)
+839 http cache side-channel-map@https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz 0ms (cache hit)
+840 http cache side-channel-list@https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.0.tgz 0ms (cache hit)
+841 http cache object-inspect@https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz 0ms (cache hit)
+842 http cache es-errors@https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz 0ms (cache hit)
+843 http cache queue-microtask@https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz 0ms (cache hit)
+844 http cache side-channel@https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz 0ms (cache hit)
+845 http cache is-arrayish@https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.2.1.tgz 0ms (cache hit)
+846 http cache json-parse-even-better-errors@https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz 0ms (cache hit)
+847 http cache error-ex@https://registry.npmjs.org/error-ex/-/error-ex-1.3.4.tgz 0ms (cache hit)
+848 http cache callsites@https://registry.npmjs.org/callsites/-/callsites-3.1.0.tgz 0ms (cache hit)
+849 http cache slice-ansi@https://registry.npmjs.org/slice-ansi/-/slice-ansi-2.1.0.tgz 0ms (cache hit)
+850 http cache colorette@https://registry.npmjs.org/colorette/-/colorette-1.4.0.tgz 0ms (cache hit)
+851 http cache dayjs@https://registry.npmjs.org/dayjs/-/dayjs-1.11.19.tgz 0ms (cache hit)
+852 http cache ansi-fragments@https://registry.npmjs.org/ansi-fragments/-/ansi-fragments-0.2.1.tgz 0ms (cache hit)
+853 http cache @sideway/pinpoint@https://registry.npmjs.org/@sideway/pinpoint/-/pinpoint-2.0.0.tgz 0ms (cache hit)
+854 http cache @sideway/formula@https://registry.npmjs.org/@sideway/formula/-/formula-3.0.1.tgz 0ms (cache hit)
+855 http cache @sideway/address@https://registry.npmjs.org/@sideway/address/-/address-4.1.5.tgz 0ms (cache hit)
+856 http cache @hapi/topo@https://registry.npmjs.org/@hapi/topo/-/topo-5.1.0.tgz 0ms (cache hit)
+857 http cache @hapi/hoek@https://registry.npmjs.org/@hapi/hoek/-/hoek-9.3.0.tgz 0ms (cache hit)
+858 http cache is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 0ms (cache hit)
+859 http cache parent-module@https://registry.npmjs.org/parent-module/-/parent-module-1.0.1.tgz 0ms (cache hit)
+860 http cache safer-buffer@https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz 0ms (cache hit)
+861 http cache jsonfile@https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz 0ms (cache hit)
+862 http cache is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 0ms (cache hit)
+863 http cache reusify@https://registry.npmjs.org/reusify/-/reusify-1.1.0.tgz 0ms (cache hit)
+864 http cache strnum@https://registry.npmjs.org/strnum/-/strnum-1.1.2.tgz 0ms (cache hit)
+865 http cache run-parallel@https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz 0ms (cache hit)
+866 http cache fastq@https://registry.npmjs.org/fastq/-/fastq-1.19.1.tgz 0ms (cache hit)
+867 http cache @nodelib/fs.scandir@https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz 0ms (cache hit)
+868 http cache merge2@https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz 0ms (cache hit)
+869 http cache glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 0ms (cache hit)
+870 http cache @nodelib/fs.walk@https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz 0ms (cache hit)
+871 http cache @nodelib/fs.stat@https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz 0ms (cache hit)
+872 http cache strip-final-newline@https://registry.npmjs.org/strip-final-newline/-/strip-final-newline-2.0.0.tgz 0ms (cache hit)
+873 http cache npm-run-path@https://registry.npmjs.org/npm-run-path/-/npm-run-path-4.0.1.tgz 0ms (cache hit)
+874 http cache is-stream@https://registry.npmjs.org/is-stream/-/is-stream-2.0.1.tgz 0ms (cache hit)
+875 http cache human-signals@https://registry.npmjs.org/human-signals/-/human-signals-2.1.0.tgz 0ms (cache hit)
+876 http cache get-stream@https://registry.npmjs.org/get-stream/-/get-stream-6.0.1.tgz 0ms (cache hit)
+877 http cache parse-json@https://registry.npmjs.org/parse-json/-/parse-json-5.2.0.tgz 0ms (cache hit)
+878 http cache import-fresh@https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.1.tgz 0ms (cache hit)
+879 http cache env-paths@https://registry.npmjs.org/env-paths/-/env-paths-2.2.1.tgz 0ms (cache hit)
+880 http cache type-is@https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz 0ms (cache hit)
+881 http cache raw-body@https://registry.npmjs.org/raw-body/-/raw-body-2.5.2.tgz 0ms (cache hit)
+882 http cache qs@https://registry.npmjs.org/qs/-/qs-6.13.0.tgz 0ms (cache hit)
+883 http cache iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz 0ms (cache hit)
+884 http cache content-type@https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz 0ms (cache hit)
+885 http cache launch-editor@https://registry.npmjs.org/launch-editor/-/launch-editor-2.12.0.tgz 0ms (cache hit)
+886 http cache appdirsjs@https://registry.npmjs.org/appdirsjs/-/appdirsjs-1.2.7.tgz 0ms (cache hit)
+887 http cache nocache@https://registry.npmjs.org/nocache/-/nocache-3.0.4.tgz 0ms (cache hit)
+888 http cache @vscode/sudo-prompt@https://registry.npmjs.org/@vscode/sudo-prompt/-/sudo-prompt-9.3.1.tgz 0ms (cache hit)
+889 http cache errorhandler@https://registry.npmjs.org/errorhandler/-/errorhandler-1.5.1.tgz 0ms (cache hit)
+890 http cache body-parser@https://registry.npmjs.org/body-parser/-/body-parser-1.20.3.tgz 0ms (cache hit)
+891 http cache fast-xml-parser@https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-4.5.3.tgz 0ms (cache hit)
+892 http cache @react-native-community/cli-config-apple@https://registry.npmjs.org/@react-native-community/cli-config-apple/-/cli-config-apple-20.0.2.tgz 0ms (cache hit)
+893 http cache logkitty@https://registry.npmjs.org/logkitty/-/logkitty-0.7.1.tgz 0ms (cache hit)
+894 http cache @react-native-community/cli-config-android@https://registry.npmjs.org/@react-native-community/cli-config-android/-/cli-config-android-20.0.2.tgz 0ms (cache hit)
+895 http cache envinfo@https://registry.npmjs.org/envinfo/-/envinfo-7.20.0.tgz 0ms (cache hit)
+896 http cache node-stream-zip@https://registry.npmjs.org/node-stream-zip/-/node-stream-zip-1.15.0.tgz 0ms (cache hit)
+897 http cache command-exists@https://registry.npmjs.org/command-exists/-/command-exists-1.2.9.tgz 0ms (cache hit)
+898 http cache @react-native-community/cli-platform-ios@https://registry.npmjs.org/@react-native-community/cli-platform-ios/-/cli-platform-ios-20.0.2.tgz 0ms (cache hit)
+899 http cache @react-native-community/cli-platform-apple@https://registry.npmjs.org/@react-native-community/cli-platform-apple/-/cli-platform-apple-20.0.2.tgz 0ms (cache hit)
+900 http cache @react-native-community/cli-platform-android@https://registry.npmjs.org/@react-native-community/cli-platform-android/-/cli-platform-android-20.0.2.tgz 0ms (cache hit)
+901 http cache joi@https://registry.npmjs.org/joi/-/joi-17.13.3.tgz 0ms (cache hit)
+902 http cache cosmiconfig@https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-9.0.0.tgz 0ms (cache hit)
+903 http cache fs-extra@https://registry.npmjs.org/fs-extra/-/fs-extra-8.1.0.tgz 0ms (cache hit)
+904 http cache fast-glob@https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.3.tgz 0ms (cache hit)
+905 http cache execa@https://registry.npmjs.org/execa/-/execa-5.1.1.tgz 0ms (cache hit)
+906 http cache @react-native-community/cli-types@https://registry.npmjs.org/@react-native-community/cli-types/-/cli-types-20.0.2.tgz 0ms (cache hit)
+907 http cache @react-native-community/cli-tools@https://registry.npmjs.org/@react-native-community/cli-tools/-/cli-tools-20.0.2.tgz 0ms (cache hit)
+908 http cache @react-native-community/cli-server-api@https://registry.npmjs.org/@react-native-community/cli-server-api/-/cli-server-api-20.0.2.tgz 0ms (cache hit)
+909 http cache @react-native-community/cli-doctor@https://registry.npmjs.org/@react-native-community/cli-doctor/-/cli-doctor-20.0.2.tgz 0ms (cache hit)
+910 http cache @react-native-community/cli-config@https://registry.npmjs.org/@react-native-community/cli-config/-/cli-config-20.0.2.tgz 0ms (cache hit)
+911 http cache @react-native-community/cli-clean@https://registry.npmjs.org/@react-native-community/cli-clean/-/cli-clean-20.0.2.tgz 0ms (cache hit)
+912 http cache @react-native-community/cli@https://registry.npmjs.org/@react-native-community/cli/-/cli-20.0.2.tgz 0ms (cache hit)
+913 http cache is-fullwidth-code-point@https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz 0ms (cache hit)
+914 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-4.1.1.tgz 0ms (cache hit)
+915 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-5.2.0.tgz 0ms (cache hit)
+916 http cache resolve-from@https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz 0ms (cache hit)
+917 http cache ms@https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 0ms (cache hit)
+918 http cache debug@https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 0ms (cache hit)
+919 http cache on-finished@https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz 0ms (cache hit)
+920 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+921 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+922 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 0ms (cache hit)
+923 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+924 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 0ms (cache hit)
+925 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+926 http cache camelcase@https://registry.npmjs.org/camelcase/-/camelcase-5.3.1.tgz 0ms (cache hit)
+927 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+928 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+929 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+930 http cache emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz 0ms (cache hit)
+931 http cache wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-6.2.0.tgz 0ms (cache hit)
+932 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 0ms (cache hit)
+933 http cache yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-18.1.3.tgz 0ms (cache hit)
+934 http cache y18n@https://registry.npmjs.org/y18n/-/y18n-4.0.3.tgz 0ms (cache hit)
+935 http cache string-width@https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz 0ms (cache hit)
+936 http cache cliui@https://registry.npmjs.org/cliui/-/cliui-6.0.0.tgz 0ms (cache hit)
+937 http cache yargs@https://registry.npmjs.org/yargs/-/yargs-15.4.1.tgz 0ms (cache hit)
+938 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+939 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+940 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+941 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 0ms (cache hit)
+942 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+943 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 0ms (cache hit)
+944 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+945 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+946 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+947 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 0ms (cache hit)
+948 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+949 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 0ms (cache hit)
+950 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+951 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+952 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 0ms (cache hit)
+953 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+954 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 1ms (cache hit)
+955 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+956 http cache argparse@https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz 0ms (cache hit)
+957 http cache js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz 0ms (cache hit)
+958 http cache signal-exit@https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz 0ms (cache hit)
+959 http cache mimic-fn@https://registry.npmjs.org/mimic-fn/-/mimic-fn-2.1.0.tgz 0ms (cache hit)
+960 http cache onetime@https://registry.npmjs.org/onetime/-/onetime-5.1.2.tgz 0ms (cache hit)
+961 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+962 http cache mimic-fn@https://registry.npmjs.org/mimic-fn/-/mimic-fn-2.1.0.tgz 0ms (cache hit)
+963 http cache signal-exit@https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz 0ms (cache hit)
+964 http cache onetime@https://registry.npmjs.org/onetime/-/onetime-5.1.2.tgz 0ms (cache hit)
+965 http cache restore-cursor@https://registry.npmjs.org/restore-cursor/-/restore-cursor-3.1.0.tgz 0ms (cache hit)
+966 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 0ms (cache hit)
+967 http cache log-symbols@https://registry.npmjs.org/log-symbols/-/log-symbols-4.1.0.tgz 0ms (cache hit)
+968 http cache cli-cursor@https://registry.npmjs.org/cli-cursor/-/cli-cursor-3.1.0.tgz 0ms (cache hit)
+969 http cache p-locate@https://registry.npmjs.org/p-locate/-/p-locate-5.0.0.tgz 0ms (cache hit)
+970 http cache locate-path@https://registry.npmjs.org/locate-path/-/locate-path-6.0.0.tgz 0ms (cache hit)
+971 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+972 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+973 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 0ms (cache hit)
+974 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+975 http cache ora@https://registry.npmjs.org/ora/-/ora-5.4.1.tgz 0ms (cache hit)
+976 http cache mime@https://registry.npmjs.org/mime/-/mime-2.6.0.tgz 0ms (cache hit)
+977 http cache find-up@https://registry.npmjs.org/find-up/-/find-up-5.0.0.tgz 0ms (cache hit)
+978 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 0ms (cache hit)
+979 http cache is-wsl@https://registry.npmjs.org/is-wsl/-/is-wsl-1.1.0.tgz 0ms (cache hit)
+980 http cache ws@https://registry.npmjs.org/ws/-/ws-6.2.3.tgz 0ms (cache hit)
+981 http cache open@https://registry.npmjs.org/open/-/open-6.4.0.tgz 0ms (cache hit)
+982 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+983 http cache mimic-fn@https://registry.npmjs.org/mimic-fn/-/mimic-fn-2.1.0.tgz 0ms (cache hit)
+984 http cache signal-exit@https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz 0ms (cache hit)
+985 http cache onetime@https://registry.npmjs.org/onetime/-/onetime-5.1.2.tgz 0ms (cache hit)
+986 http cache restore-cursor@https://registry.npmjs.org/restore-cursor/-/restore-cursor-3.1.0.tgz 0ms (cache hit)
+987 http cache log-symbols@https://registry.npmjs.org/log-symbols/-/log-symbols-4.1.0.tgz 0ms (cache hit)
+988 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 0ms (cache hit)
+989 http cache cli-cursor@https://registry.npmjs.org/cli-cursor/-/cli-cursor-3.1.0.tgz 0ms (cache hit)
+990 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+991 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+992 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 0ms (cache hit)
+993 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+994 http cache ora@https://registry.npmjs.org/ora/-/ora-5.4.1.tgz 0ms (cache hit)
+995 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 0ms (cache hit)
+996 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+997 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+998 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+999 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 0ms (cache hit)
+1000 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+1001 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 0ms (cache hit)
+1002 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+1003 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+1004 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+1005 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 0ms (cache hit)
+1006 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+1007 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 0ms (cache hit)
+1008 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+1009 http cache p-locate@https://registry.npmjs.org/p-locate/-/p-locate-5.0.0.tgz 0ms (cache hit)
+1010 http cache locate-path@https://registry.npmjs.org/locate-path/-/locate-path-6.0.0.tgz 0ms (cache hit)
+1011 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+1012 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+1013 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 0ms (cache hit)
+1014 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+1015 http cache find-up@https://registry.npmjs.org/find-up/-/find-up-5.0.0.tgz 0ms (cache hit)
+1016 http cache commander@https://registry.npmjs.org/commander/-/commander-9.5.0.tgz 0ms (cache hit)
+1017 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 0ms (cache hit)
+1018 http cache universalify@https://registry.npmjs.org/universalify/-/universalify-0.1.2.tgz 0ms (cache hit)
+1019 silly tarball no local data for queue-microtask@https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz. Extracting by manifest.
+1020 silly tarball no local data for json-parse-even-better-errors@https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz. Extracting by manifest.
+1021 silly tarball no local data for callsites@https://registry.npmjs.org/callsites/-/callsites-3.1.0.tgz. Extracting by manifest.
+1022 silly tarball no local data for is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz. Extracting by manifest.
+1023 silly tarball no local data for parent-module@https://registry.npmjs.org/parent-module/-/parent-module-1.0.1.tgz. Extracting by manifest.
+1024 silly tarball no local data for is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz. Extracting by manifest.
+1025 silly tarball no local data for reusify@https://registry.npmjs.org/reusify/-/reusify-1.1.0.tgz. Extracting by manifest.
+1026 silly tarball no local data for run-parallel@https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz. Extracting by manifest.
+1027 silly tarball no local data for @nodelib/fs.scandir@https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz. Extracting by manifest.
+1028 silly tarball no local data for fastq@https://registry.npmjs.org/fastq/-/fastq-1.19.1.tgz. Extracting by manifest.
+1029 silly tarball no local data for merge2@https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz. Extracting by manifest.
+1030 silly tarball no local data for glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz. Extracting by manifest.
+1031 silly tarball no local data for @nodelib/fs.walk@https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz. Extracting by manifest.
+1032 silly tarball no local data for @nodelib/fs.stat@https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz. Extracting by manifest.
+1033 silly tarball no local data for strip-final-newline@https://registry.npmjs.org/strip-final-newline/-/strip-final-newline-2.0.0.tgz. Extracting by manifest.
+1034 silly tarball no local data for npm-run-path@https://registry.npmjs.org/npm-run-path/-/npm-run-path-4.0.1.tgz. Extracting by manifest.
+1035 silly tarball no local data for is-stream@https://registry.npmjs.org/is-stream/-/is-stream-2.0.1.tgz. Extracting by manifest.
+1036 silly tarball no local data for human-signals@https://registry.npmjs.org/human-signals/-/human-signals-2.1.0.tgz. Extracting by manifest.
+1037 silly tarball no local data for get-stream@https://registry.npmjs.org/get-stream/-/get-stream-6.0.1.tgz. Extracting by manifest.
+1038 silly tarball no local data for parse-json@https://registry.npmjs.org/parse-json/-/parse-json-5.2.0.tgz. Extracting by manifest.
+1039 silly tarball no local data for import-fresh@https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.1.tgz. Extracting by manifest.
+1040 silly tarball no local data for env-paths@https://registry.npmjs.org/env-paths/-/env-paths-2.2.1.tgz. Extracting by manifest.
+1041 silly tarball no local data for launch-editor@https://registry.npmjs.org/launch-editor/-/launch-editor-2.12.0.tgz. Extracting by manifest.
+1042 silly tarball no local data for @vscode/sudo-prompt@https://registry.npmjs.org/@vscode/sudo-prompt/-/sudo-prompt-9.3.1.tgz. Extracting by manifest.
+1043 silly tarball no local data for @react-native-community/cli-config-apple@https://registry.npmjs.org/@react-native-community/cli-config-apple/-/cli-config-apple-20.0.2.tgz. Extracting by manifest.
+1044 silly tarball no local data for @react-native-community/cli-config-android@https://registry.npmjs.org/@react-native-community/cli-config-android/-/cli-config-android-20.0.2.tgz. Extracting by manifest.
+1045 silly tarball no local data for @react-native-community/cli-platform-apple@https://registry.npmjs.org/@react-native-community/cli-platform-apple/-/cli-platform-apple-20.0.2.tgz. Extracting by manifest.
+1046 silly tarball no local data for @react-native-community/cli-platform-ios@https://registry.npmjs.org/@react-native-community/cli-platform-ios/-/cli-platform-ios-20.0.2.tgz. Extracting by manifest.
+1047 silly tarball no local data for @react-native-community/cli-platform-android@https://registry.npmjs.org/@react-native-community/cli-platform-android/-/cli-platform-android-20.0.2.tgz. Extracting by manifest.
+1048 silly tarball no local data for cosmiconfig@https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-9.0.0.tgz. Extracting by manifest.
+1049 silly tarball no local data for execa@https://registry.npmjs.org/execa/-/execa-5.1.1.tgz. Extracting by manifest.
+1050 silly tarball no local data for fast-glob@https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.3.tgz. Extracting by manifest.
+1051 silly tarball no local data for @react-native-community/cli-types@https://registry.npmjs.org/@react-native-community/cli-types/-/cli-types-20.0.2.tgz. Extracting by manifest.
+1052 silly tarball no local data for @react-native-community/cli-tools@https://registry.npmjs.org/@react-native-community/cli-tools/-/cli-tools-20.0.2.tgz. Extracting by manifest.
+1053 silly tarball no local data for @react-native-community/cli-doctor@https://registry.npmjs.org/@react-native-community/cli-doctor/-/cli-doctor-20.0.2.tgz. Extracting by manifest.
+1054 silly tarball no local data for @react-native-community/cli-server-api@https://registry.npmjs.org/@react-native-community/cli-server-api/-/cli-server-api-20.0.2.tgz. Extracting by manifest.
+1055 silly tarball no local data for @react-native-community/cli-config@https://registry.npmjs.org/@react-native-community/cli-config/-/cli-config-20.0.2.tgz. Extracting by manifest.
+1056 silly tarball no local data for @react-native-community/cli-clean@https://registry.npmjs.org/@react-native-community/cli-clean/-/cli-clean-20.0.2.tgz. Extracting by manifest.
+1057 silly tarball no local data for @react-native-community/cli@https://registry.npmjs.org/@react-native-community/cli/-/cli-20.0.2.tgz. Extracting by manifest.
+1058 silly tarball no local data for resolve-from@https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz. Extracting by manifest.
+1059 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1603ms
+1060 silly audit report {}
+1061 http fetch GET 200 https://registry.npmjs.org/callsites/-/callsites-3.1.0.tgz 2867ms (cache miss)
+1062 http fetch GET 200 https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz 2949ms (cache miss)
+1063 http fetch GET 200 https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz 2948ms (cache miss)
+1064 http fetch GET 200 https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 2955ms (cache miss)
+1065 http fetch GET 200 https://registry.npmjs.org/strip-final-newline/-/strip-final-newline-2.0.0.tgz 3145ms (cache miss)
+1066 http fetch GET 200 https://registry.npmjs.org/is-stream/-/is-stream-2.0.1.tgz 3254ms (cache miss)
+1067 http fetch GET 200 https://registry.npmjs.org/npm-run-path/-/npm-run-path-4.0.1.tgz 3266ms (cache miss)
+1068 http fetch GET 200 https://registry.npmjs.org/get-stream/-/get-stream-6.0.1.tgz 3313ms (cache miss)
+1069 http fetch GET 200 https://registry.npmjs.org/parse-json/-/parse-json-5.2.0.tgz 3644ms (cache miss)
+1070 http fetch GET 200 https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.1.tgz 3668ms (cache miss)
+1071 http fetch GET 200 https://registry.npmjs.org/env-paths/-/env-paths-2.2.1.tgz 3712ms (cache miss)
+1072 http fetch GET 200 https://registry.npmjs.org/human-signals/-/human-signals-2.1.0.tgz 3766ms (cache miss)
+1073 http fetch GET 200 https://registry.npmjs.org/launch-editor/-/launch-editor-2.12.0.tgz 3848ms (cache miss)
+1074 http fetch GET 200 https://registry.npmjs.org/@vscode/sudo-prompt/-/sudo-prompt-9.3.1.tgz 3923ms (cache miss)
+1075 http fetch GET 200 https://registry.npmjs.org/execa/-/execa-5.1.1.tgz 4567ms (cache miss)
+1076 http fetch GET 200 https://registry.npmjs.org/@react-native-community/cli-types/-/cli-types-20.0.2.tgz 4998ms (cache miss)
+1077 http fetch GET 200 https://registry.npmjs.org/@react-native-community/cli-clean/-/cli-clean-20.0.2.tgz 5254ms (cache miss)
+1078 http fetch GET 200 https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz 5356ms (cache miss)
+1079 http fetch GET 200 https://registry.npmjs.org/@react-native-community/cli-platform-ios/-/cli-platform-ios-20.0.2.tgz 5413ms (cache miss)
+1080 http fetch GET 200 https://registry.npmjs.org/@react-native-community/cli-server-api/-/cli-server-api-20.0.2.tgz 5964ms (cache miss)
+1081 http fetch GET 200 https://registry.npmjs.org/@react-native-community/cli-config-android/-/cli-config-android-20.0.2.tgz 6042ms (cache miss)
+1082 http fetch GET 200 https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-9.0.0.tgz 6067ms (cache miss)
+1083 http fetch GET 200 https://registry.npmjs.org/@react-native-community/cli-config-apple/-/cli-config-apple-20.0.2.tgz 6101ms (cache miss)
+1084 http fetch GET 200 https://registry.npmjs.org/@react-native-community/cli-config/-/cli-config-20.0.2.tgz 6389ms (cache miss)
+1085 http fetch GET 200 https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.3.tgz 6522ms (cache miss)
+1086 http fetch GET 200 https://registry.npmjs.org/@react-native-community/cli-platform-android/-/cli-platform-android-20.0.2.tgz 6837ms (cache miss)
+1087 http fetch GET 200 https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 7172ms (cache miss)
+1088 http fetch GET 200 https://registry.npmjs.org/parent-module/-/parent-module-1.0.1.tgz 7205ms (cache miss)
+1089 http fetch GET 200 https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz 7391ms (cache miss)
+1090 http fetch GET 200 https://registry.npmjs.org/reusify/-/reusify-1.1.0.tgz 7444ms (cache miss)
+1091 http fetch GET 200 https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz 7495ms (cache miss)
+1092 http fetch GET 200 https://registry.npmjs.org/fastq/-/fastq-1.19.1.tgz 7536ms (cache miss)
+1093 http fetch GET 200 https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 7561ms (cache miss)
+1094 http fetch GET 200 https://registry.npmjs.org/@react-native-community/cli-tools/-/cli-tools-20.0.2.tgz 7531ms (cache miss)
+1095 http fetch GET 200 https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz 7716ms (cache miss)
+1096 http fetch GET 200 https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz 7773ms (cache miss)
+1097 http fetch GET 200 https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz 7973ms (cache miss)
+1098 http fetch GET 200 https://registry.npmjs.org/@react-native-community/cli-platform-apple/-/cli-platform-apple-20.0.2.tgz 7969ms (cache miss)
+1099 http fetch GET 200 https://registry.npmjs.org/@react-native-community/cli/-/cli-20.0.2.tgz 7980ms (cache miss)
+1100 http fetch GET 200 https://registry.npmjs.org/@react-native-community/cli-doctor/-/cli-doctor-20.0.2.tgz 8217ms (cache miss)
+1101 silly ADD node_modules/which-module
+1102 silly ADD node_modules/set-blocking
+1103 silly ADD node_modules/require-main-filename
+1104 silly ADD node_modules/decamelize
+1105 silly ADD node_modules/util-deprecate
+1106 silly ADD node_modules/string_decoder
+1107 silly ADD node_modules/readable-stream
+1108 silly ADD node_modules/is-unicode-supported
+1109 silly ADD node_modules/is-interactive
+1110 silly ADD node_modules/bl
+1111 silly ADD node_modules/media-typer
+1112 silly ADD node_modules/astral-regex
+1113 silly ADD node_modules/dunder-proto
+1114 silly ADD node_modules/math-intrinsics
+1115 silly ADD node_modules/has-symbols
+1116 silly ADD node_modules/gopd
+1117 silly ADD node_modules/get-proto
+1118 silly ADD node_modules/es-object-atoms
+1119 silly ADD node_modules/es-define-property
+1120 silly ADD node_modules/call-bind-apply-helpers
+1121 silly ADD node_modules/get-intrinsic
+1122 silly ADD node_modules/call-bound
+1123 silly ADD node_modules/side-channel-weakmap
+1124 silly ADD node_modules/side-channel-map
+1125 silly ADD node_modules/side-channel-list
+1126 silly ADD node_modules/object-inspect
+1127 silly ADD node_modules/es-errors
+1128 silly ADD node_modules/queue-microtask
+1129 silly ADD node_modules/side-channel
+1130 silly ADD node_modules/is-arrayish
+1131 silly ADD node_modules/json-parse-even-better-errors
+1132 silly ADD node_modules/error-ex
+1133 silly ADD node_modules/callsites
+1134 silly ADD node_modules/slice-ansi
+1135 silly ADD node_modules/slice-ansi/node_modules/is-fullwidth-code-point
+1136 silly ADD node_modules/colorette
+1137 silly ADD node_modules/dayjs
+1138 silly ADD node_modules/ansi-fragments
+1139 silly ADD node_modules/ansi-fragments/node_modules/ansi-regex
+1140 silly ADD node_modules/ansi-fragments/node_modules/strip-ansi
+1141 silly ADD node_modules/@sideway/pinpoint
+1142 silly ADD node_modules/@sideway/formula
+1143 silly ADD node_modules/@sideway/address
+1144 silly ADD node_modules/@hapi/topo
+1145 silly ADD node_modules/@hapi/hoek
+1146 silly ADD node_modules/is-extglob
+1147 silly ADD node_modules/parent-module
+1148 silly ADD node_modules/safer-buffer
+1149 silly ADD node_modules/is-glob
+1150 silly ADD node_modules/universalify
+1151 silly ADD node_modules/jsonfile
+1152 silly ADD node_modules/reusify
+1153 silly ADD node_modules/strnum
+1154 silly ADD node_modules/run-parallel
+1155 silly ADD node_modules/fastq
+1156 silly ADD node_modules/@nodelib/fs.scandir
+1157 silly ADD node_modules/merge2
+1158 silly ADD node_modules/glob-parent
+1159 silly ADD node_modules/@nodelib/fs.walk
+1160 silly ADD node_modules/@nodelib/fs.stat
+1161 silly ADD node_modules/strip-final-newline
+1162 silly ADD node_modules/npm-run-path
+1163 silly ADD node_modules/is-stream
+1164 silly ADD node_modules/human-signals
+1165 silly ADD node_modules/get-stream
+1166 silly ADD node_modules/parse-json
+1167 silly ADD node_modules/import-fresh
+1168 silly ADD node_modules/import-fresh/node_modules/resolve-from
+1169 silly ADD node_modules/env-paths
+1170 silly ADD node_modules/type-is
+1171 silly ADD node_modules/raw-body
+1172 silly ADD node_modules/qs
+1173 silly ADD node_modules/iconv-lite
+1174 silly ADD node_modules/content-type
+1175 silly ADD node_modules/launch-editor
+1176 silly ADD node_modules/appdirsjs
+1177 silly ADD node_modules/@vscode/sudo-prompt
+1178 silly ADD node_modules/nocache
+1179 silly ADD node_modules/errorhandler
+1180 silly ADD node_modules/body-parser
+1181 silly ADD node_modules/body-parser/node_modules/ms
+1182 silly ADD node_modules/body-parser/node_modules/on-finished
+1183 silly ADD node_modules/body-parser/node_modules/debug
+1184 silly ADD node_modules/@react-native-community/cli-config-apple
+1185 silly ADD node_modules/@react-native-community/cli-config-apple/node_modules/has-flag
+1186 silly ADD node_modules/@react-native-community/cli-config-apple/node_modules/color-name
+1187 silly ADD node_modules/@react-native-community/cli-config-apple/node_modules/color-convert
+1188 silly ADD node_modules/@react-native-community/cli-config-apple/node_modules/supports-color
+1189 silly ADD node_modules/@react-native-community/cli-config-apple/node_modules/ansi-styles
+1190 silly ADD node_modules/@react-native-community/cli-config-apple/node_modules/chalk
+1191 silly ADD node_modules/fast-xml-parser
+1192 silly ADD node_modules/logkitty
+1193 silly ADD node_modules/logkitty/node_modules/camelcase
+1194 silly ADD node_modules/logkitty/node_modules/color-name
+1195 silly ADD node_modules/logkitty/node_modules/color-convert
+1196 silly ADD node_modules/logkitty/node_modules/ansi-styles
+1197 silly ADD node_modules/logkitty/node_modules/emoji-regex
+1198 silly ADD node_modules/logkitty/node_modules/wrap-ansi
+1199 silly ADD node_modules/logkitty/node_modules/strip-ansi
+1200 silly ADD node_modules/logkitty/node_modules/yargs-parser
+1201 silly ADD node_modules/logkitty/node_modules/y18n
+1202 silly ADD node_modules/logkitty/node_modules/string-width
+1203 silly ADD node_modules/logkitty/node_modules/cliui
+1204 silly ADD node_modules/logkitty/node_modules/yargs
+1205 silly ADD node_modules/@react-native-community/cli-config-android
+1206 silly ADD node_modules/@react-native-community/cli-config-android/node_modules/has-flag
+1207 silly ADD node_modules/@react-native-community/cli-config-android/node_modules/color-name
+1208 silly ADD node_modules/@react-native-community/cli-config-android/node_modules/color-convert
+1209 silly ADD node_modules/@react-native-community/cli-config-android/node_modules/supports-color
+1210 silly ADD node_modules/@react-native-community/cli-config-android/node_modules/ansi-styles
+1211 silly ADD node_modules/@react-native-community/cli-config-android/node_modules/chalk
+1212 silly ADD node_modules/node-stream-zip
+1213 silly ADD node_modules/envinfo
+1214 silly ADD node_modules/command-exists
+1215 silly ADD node_modules/@react-native-community/cli-platform-ios
+1216 silly ADD node_modules/@react-native-community/cli-platform-apple
+1217 silly ADD node_modules/@react-native-community/cli-platform-apple/node_modules/has-flag
+1218 silly ADD node_modules/@react-native-community/cli-platform-apple/node_modules/color-name
+1219 silly ADD node_modules/@react-native-community/cli-platform-apple/node_modules/color-convert
+1220 silly ADD node_modules/@react-native-community/cli-platform-apple/node_modules/supports-color
+1221 silly ADD node_modules/@react-native-community/cli-platform-apple/node_modules/ansi-styles
+1222 silly ADD node_modules/@react-native-community/cli-platform-apple/node_modules/chalk
+1223 silly ADD node_modules/@react-native-community/cli-platform-android
+1224 silly ADD node_modules/@react-native-community/cli-platform-android/node_modules/has-flag
+1225 silly ADD node_modules/@react-native-community/cli-platform-android/node_modules/color-name
+1226 silly ADD node_modules/@react-native-community/cli-platform-android/node_modules/color-convert
+1227 silly ADD node_modules/@react-native-community/cli-platform-android/node_modules/supports-color
+1228 silly ADD node_modules/@react-native-community/cli-platform-android/node_modules/ansi-styles
+1229 silly ADD node_modules/@react-native-community/cli-platform-android/node_modules/chalk
+1230 silly ADD node_modules/joi
+1231 silly ADD node_modules/cosmiconfig
+1232 silly ADD node_modules/cosmiconfig/node_modules/argparse
+1233 silly ADD node_modules/cosmiconfig/node_modules/js-yaml
+1234 silly ADD node_modules/fast-glob
+1235 silly ADD node_modules/fs-extra
+1236 silly ADD node_modules/execa
+1237 silly ADD node_modules/execa/node_modules/mimic-fn
+1238 silly ADD node_modules/execa/node_modules/signal-exit
+1239 silly ADD node_modules/execa/node_modules/onetime
+1240 silly ADD node_modules/@react-native-community/cli-types
+1241 silly ADD node_modules/@react-native-community/cli-tools
+1242 silly ADD node_modules/@react-native-community/cli-tools/node_modules/has-flag
+1243 silly ADD node_modules/@react-native-community/cli-tools/node_modules/mimic-fn
+1244 silly ADD node_modules/@react-native-community/cli-tools/node_modules/signal-exit
+1245 silly ADD node_modules/@react-native-community/cli-tools/node_modules/onetime
+1246 silly ADD node_modules/@react-native-community/cli-tools/node_modules/restore-cursor
+1247 silly ADD node_modules/@react-native-community/cli-tools/node_modules/strip-ansi
+1248 silly ADD node_modules/@react-native-community/cli-tools/node_modules/log-symbols
+1249 silly ADD node_modules/@react-native-community/cli-tools/node_modules/cli-cursor
+1250 silly ADD node_modules/@react-native-community/cli-tools/node_modules/p-locate
+1251 silly ADD node_modules/@react-native-community/cli-tools/node_modules/locate-path
+1252 silly ADD node_modules/@react-native-community/cli-tools/node_modules/color-name
+1253 silly ADD node_modules/@react-native-community/cli-tools/node_modules/color-convert
+1254 silly ADD node_modules/@react-native-community/cli-tools/node_modules/supports-color
+1255 silly ADD node_modules/@react-native-community/cli-tools/node_modules/ansi-styles
+1256 silly ADD node_modules/@react-native-community/cli-tools/node_modules/ora
+1257 silly ADD node_modules/@react-native-community/cli-tools/node_modules/mime
+1258 silly ADD node_modules/@react-native-community/cli-tools/node_modules/find-up
+1259 silly ADD node_modules/@react-native-community/cli-tools/node_modules/chalk
+1260 silly ADD node_modules/@react-native-community/cli-server-api
+1261 silly ADD node_modules/@react-native-community/cli-server-api/node_modules/is-wsl
+1262 silly ADD node_modules/@react-native-community/cli-server-api/node_modules/ws
+1263 silly ADD node_modules/@react-native-community/cli-server-api/node_modules/open
+1264 silly ADD node_modules/@react-native-community/cli-doctor
+1265 silly ADD node_modules/@react-native-community/cli-doctor/node_modules/has-flag
+1266 silly ADD node_modules/@react-native-community/cli-doctor/node_modules/mimic-fn
+1267 silly ADD node_modules/@react-native-community/cli-doctor/node_modules/signal-exit
+1268 silly ADD node_modules/@react-native-community/cli-doctor/node_modules/onetime
+1269 silly ADD node_modules/@react-native-community/cli-doctor/node_modules/restore-cursor
+1270 silly ADD node_modules/@react-native-community/cli-doctor/node_modules/strip-ansi
+1271 silly ADD node_modules/@react-native-community/cli-doctor/node_modules/log-symbols
+1272 silly ADD node_modules/@react-native-community/cli-doctor/node_modules/cli-cursor
+1273 silly ADD node_modules/@react-native-community/cli-doctor/node_modules/color-name
+1274 silly ADD node_modules/@react-native-community/cli-doctor/node_modules/color-convert
+1275 silly ADD node_modules/@react-native-community/cli-doctor/node_modules/supports-color
+1276 silly ADD node_modules/@react-native-community/cli-doctor/node_modules/ansi-styles
+1277 silly ADD node_modules/@react-native-community/cli-doctor/node_modules/ora
+1278 silly ADD node_modules/@react-native-community/cli-doctor/node_modules/chalk
+1279 silly ADD node_modules/@react-native-community/cli-config
+1280 silly ADD node_modules/@react-native-community/cli-config/node_modules/has-flag
+1281 silly ADD node_modules/@react-native-community/cli-config/node_modules/color-name
+1282 silly ADD node_modules/@react-native-community/cli-config/node_modules/color-convert
+1283 silly ADD node_modules/@react-native-community/cli-config/node_modules/supports-color
+1284 silly ADD node_modules/@react-native-community/cli-config/node_modules/ansi-styles
+1285 silly ADD node_modules/@react-native-community/cli-config/node_modules/chalk
+1286 silly ADD node_modules/@react-native-community/cli-clean
+1287 silly ADD node_modules/@react-native-community/cli-clean/node_modules/has-flag
+1288 silly ADD node_modules/@react-native-community/cli-clean/node_modules/color-name
+1289 silly ADD node_modules/@react-native-community/cli-clean/node_modules/color-convert
+1290 silly ADD node_modules/@react-native-community/cli-clean/node_modules/supports-color
+1291 silly ADD node_modules/@react-native-community/cli-clean/node_modules/ansi-styles
+1292 silly ADD node_modules/@react-native-community/cli-clean/node_modules/chalk
+1293 silly ADD node_modules/@react-native-community/cli
+1294 silly ADD node_modules/@react-native-community/cli/node_modules/has-flag
+1295 silly ADD node_modules/@react-native-community/cli/node_modules/p-locate
+1296 silly ADD node_modules/@react-native-community/cli/node_modules/locate-path
+1297 silly ADD node_modules/@react-native-community/cli/node_modules/color-name
+1298 silly ADD node_modules/@react-native-community/cli/node_modules/color-convert
+1299 silly ADD node_modules/@react-native-community/cli/node_modules/supports-color
+1300 silly ADD node_modules/@react-native-community/cli/node_modules/ansi-styles
+1301 silly ADD node_modules/@react-native-community/cli/node_modules/find-up
+1302 silly ADD node_modules/@react-native-community/cli/node_modules/commander
+1303 silly ADD node_modules/@react-native-community/cli/node_modules/chalk
+1304 silly ADD
+1305 silly ADD
+1306 silly ADD
+1307 silly ADD
+1308 silly ADD
+1309 silly ADD
+1310 silly ADD
+1311 silly ADD
+1312 silly ADD
+1313 silly ADD
+1314 silly ADD
+1315 verbose cwd /data/data/com.termux/files/home/deo-project/DEO-Nouveau
+1316 verbose os Linux 5.15.149-android13-8-28783478-abA057FXXS9CYD5
+1317 verbose node v22.20.0
+1318 verbose npm  v10.9.3
+1319 verbose exit 0
+1320 info ok
