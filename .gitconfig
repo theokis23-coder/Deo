@@ -1,3 +1,5 @@
 [user]
 	name = Theokis23-coder
 	email = Theokis23@gmail.com
+[http]
+	postBuffer = 524288000
