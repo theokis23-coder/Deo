@@ -1,0 +1,10 @@
+{
+  "name": "deo-apk",
+  "private": true,
+  "workspaces": ["backend", "mobile"],
+  "scripts": {
+    "start:backend": "npm --workspace backend run dev",
+    "start:mobile": "npm --workspace mobile start"
+  }
+}
+
