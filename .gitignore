@@ -1,4 +1,21 @@
-node_modules
-.npm
+# Node
+node_modules/
+npm-debug.log*
+
+# Env
 .env
-downloads
+
+# Expo / React Native
+.expo/
+.expo-shared/
+
+# OS
+.DS_Store
+
+# Uploads
+backend/uploads/
+
+# Archives & docs temporaires
+*.zip
+*.pdf
+*.doc*
